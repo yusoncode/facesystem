@@ -1,0 +1,982 @@
+@CHARSET "UTF-8";
+
+     *{margin:0;padding:0}
+     body{font-size:14px;font-family:"微软雅黑";
+	 overflow-y: hidden;
+     overflow-x: hidden;}
+	 a{text-decoration:none;}
+	 ul ol,li{list-style-type:none;}
+	 ::-webkit-scrollbar{width:6px;height:6px;background-color:gray;}
+	 ::-webkit-scrollbar-thumb{width:6px;height:6px;background-color:#f7f7f7;border-radius:3px;}
+	/*------------------------------------------途牛网--------------------------------------------*/
+	   #tuniu{width:850px;height:450px;border:4px solid black;box-shadow:0 0 20px gray;position:absolute;visibility:hidden/*占用位置*/}
+	  #tuniu img.tuniu_close{position:absolute;right:0px;top:0px}
+	  #tuniu a.big{display:block;width:30px;height:18px;position:absolute;right:37px;top:4px;border:1px solid white;box-shadow:0 0 5px gray;}
+      #tuniu_title{width:100%;height:40px;background-color:rgba(0,0,0,0.7);cursor:move;}
+	  #tuniu .tuniu_bottom{width:850px;height:410px;}
+	  #tuniu .tuniu_bottom iframe{width:845px;height:410px;}
+	 /*-------------------------------途牛网--------------------------------------------------*/
+	 /*-------------------------------淘宝------------------------------------------------------*/
+	  #taobao{width:850px;height:450px;border:4px solid black;box-shadow:0 0 20px gray;position:absolute;visibility:hidden/*占用位置*/}
+	  #taobao img.taobao_close{position:absolute;right:0px;top:0px}
+	  #taobao a.big{display:block;width:30px;height:18px;position:absolute;right:37px;top:4px;border:1px solid white;box-shadow:0 0 5px gray;}
+      #taobao_title{width:100%;height:40px;background-color:rgba(0,0,0,0.7);cursor:move;}
+	  #taobao .taobao_bottom{width:850px;height:410px;}
+	  #taobao .taobao_bottom iframe{width:845px;height:406px;}
+	  /*------------------------------淘宝---------------------------------------------------------*/
+	  
+	  /*-------------------------------记事本------------------------------------------------------*/
+	  #notebook{width:850px;height:450px;border:4px solid black;box-shadow:0 0 20px gray;position:absolute;visibility:hidden/*占用位置*/}
+	  #notebook img.notebook_close{position:absolute;right:0px;top:0px}
+	  #notebook a.big{display:block;width:30px;height:18px;position:absolute;right:37px;top:4px;border:1px solid white;box-shadow:0 0 5px gray;}
+      #notebook_title{width:100%;height:40px;background-color:rgba(0,0,0,0.7);cursor:move;}
+	  #notebook .notebook_bottom{width:850px;height:410px;}
+	  #notebook .notebook_bottom iframe{width:845px;height:406px;}
+	  /*------------------------------记事本---------------------------------------------------------*/
+	  /*-----------------------------图片上传------------------------------------------------------------*/
+	   #pictureupload{width:850px;height:450px;border:4px solid black;box-shadow:0 0 20px gray;position:absolute;visibility:hidden/*占用位置*/}
+	  #pictureupload img.pictureupload_close{position:absolute;right:0px;top:0px}
+	  #pictureupload a.big{display:block;width:30px;height:18px;position:absolute;right:37px;top:4px;border:1px solid white;box-shadow:0 0 5px gray;}
+      #pictureupload_title{width:100%;height:40px;background-color:rgba(0,0,0,0.7);cursor:move;}
+	  #pictureupload .pictureupload_bottom{width:850px;height:410px;}
+	  #pictureupload .pictureupload_bottom iframe{width:845px;height:406px;}
+  
+	  
+	  
+	  	  /*-----------------------------图片上传------------------------------------------------------------*/
+	 /*----------------------------------展示大图片--------------------------------------------------------------*/
+	 
+	  #bigpicture{width:850px;height:450px;border:4px solid black;box-shadow:0 0 20px gray;position:absolute;visibility:hidden/*占用位置*/}
+	  #bigpicture img.bigpicture_close{position:absolute;right:0px;top:0px}
+	  #bigpicture a.big{display:block;width:30px;height:18px;position:absolute;right:37px;top:4px;border:1px solid white;box-shadow:0 0 5px gray;}
+      #bigpicture_title{width:100%;height:40px;background-color:rgba(0,0,0,0.7);cursor:move;}
+	  #bigpicture .bigpicture_bottom{width:850px;height:410px;}
+	  #bigpicture .bigpicture_bottom iframe{width:845px;height:406px;}
+  
+	 
+	 
+	 
+	 
+	 /*----------------------------------展示大图片--------------------------------------------------------------------*/
+	 
+	 /*------------------------------------网站信息----------------------------------------------------------*/
+	  #website{width:850px;height:450px;border:4px solid black;box-shadow:0 0 20px gray;position:absolute;visibility:hidden/*占用位置*/}
+	  #website img.website_close{position:absolute;right:0px;top:0px}
+	  #website a.big{display:block;width:30px;height:18px;position:absolute;right:37px;top:4px;border:1px solid white;box-shadow:0 0 5px gray;}
+      #website_title{width:100%;height:40px;background-color:rgba(0,0,0,0.7);cursor:move;}
+	  #website .website_bottom{width:850px;height:410px;}
+	  #website .website_bottom iframe{width:845px;height:406px;}
+  
+	 
+	 
+	 /*-----------------------------------网站信息---------------------------------------------------------------*/
+	 
+	 
+	  
+	 /*------------------------------------网站信息URL----------------------------------------------------------*/
+	  #websiteurl{width:850px;height:450px;border:4px solid black;box-shadow:0 0 20px gray;position:absolute;visibility:hidden/*占用位置*/}
+	  #websiteurl img.websiteurl_close{position:absolute;right:0px;top:0px}
+	  #websiteurl a.big{display:block;width:30px;height:18px;position:absolute;right:37px;top:4px;border:1px solid white;box-shadow:0 0 5px gray;}
+      #websiteurl_title{width:100%;height:40px;background-color:rgba(0,0,0,0.7);cursor:move;}
+	  #websiteurl .websiteurl_bottom{width:850px;height:410px;}
+	  #websiteurl .websiteurl_bottom iframe{width:845px;height:406px;}
+  
+	 
+	 
+	 /*-----------------------------------网站信息URL---------------------------------------------------------------*/
+	 
+	 
+	 
+	 
+	  /*------------------------------win8------------------------------------------------------*/
+
+	  #win8{
+	       width:100%;height:40px;
+		   position:absolute;bottom:0px;left:0px;
+		   background-color:rgba(40,128,196,0.6);
+		   }
+	 #win8_icon{bottom:0px;margin-left:5px;}
+     #win8 li{width:60px;height:40px;}
+     #win8 li:hover{background-color:rgba(40,128,196,0.8);}
+     
+	 #win8_page{
+	       width:200px;height:300px;
+		   position:absolute;
+		   bottom:40px;left:0px;
+		   background-color:rgba(0,0,0,0.7);
+		   display:none;
+
+		   }
+	 #win8_page ul{margin-left:20px;margin-top:20px}
+     #win8_page ul li{width:100px;height:80px;margin-top:5px;text-align:center;}
+	 #win8_page ul li:hover{background-color:rgba(0,0,0,0.4)}
+	 #win8_page ul li img{margin-top:20px;}
+	 #win8_page ul li span{display:block;color:white;}
+	 /*------------------------------win8------------------------------------------------------*/
+
+/*----------------------------------W3Cschool-------------------------------------------------*/
+	   #W3Cschool{width:850px;height:450px;border:4px solid black;box-shadow:0 0 20px gray;position:absolute;visibility:hidden/*占用位置*/}
+	  #W3Cschool img.w3c_close{position:absolute;right:0px;top:0px}
+	  #W3Cschool a.big{display:block;width:30px;height:18px;position:absolute;right:37px;top:4px;border:1px solid white;box-shadow:0 0 5px gray;}
+      #w3c_title{width:100%;height:40px;background-color:rgba(0,0,0,0.7);cursor:move;}
+	  #W3Cschool .w3c_bottom{width:850px;height:410px;}
+	  #W3Cschool .w3c_bottom iframe{width:845px;height:410px;}
+	 /*----------------------------------W3Cschool-------------------------------------------------*/
+	 /*-----------------------------------WEBQQ---------------------------------------------------*/
+	  #webqq{width:850px;height:450px;border:4px solid black;box-shadow:0 0 20px gray;position:absolute;visibility:hidden/*占用位置*/}
+	  #webqq img.webqq_close{position:absolute;right:0px;top:0px}
+	  #webqq a.big{display:block;width:30px;height:18px;position:absolute;right:37px;top:4px;border:1px solid white;box-shadow:0 0 5px gray;}
+      #webqq_title{width:100%;height:40px;background-color:rgba(0,0,0,0.7);cursor:move;}
+	  #webqq .webqq_bottom{width:850px;height:410px;}
+	  #webqq .webqq_bottom iframe{width:845px;height:406px;}
+	 /*---------------------------------------WEBQQ------------------------------------------*/
+	 
+	 
+	 
+	 
+	  /*-----------------------------------腾讯视频----------------------------------------*/
+      #tengxun_video{width:850px;height:450px;border:4px solid black;box-shadow:0 0 20px gray;position:absolute;visibility:hidden/*占用位置*/}
+	  #tengxun_video img.tengxun_close{position:absolute;right:0px;top:0px}
+	  #tengxun_video a.big{display:block;width:30px;height:18px;position:absolute;right:37px;top:4px;border:1px solid white;box-shadow:0 0 5px gray;}
+      #tengxun_title{width:100%;height:40px;background-color:rgba(0,0,0,0.7);cursor:move;}
+	  #tengxun_video .tenngxun_bottom{width:850px;height:410px;}
+	  #tengxun_video .tenngxun_bottom iframe{width:846px;height:406px;}
+
+	 /*-----------------------------------腾讯视频----------------------------------------*/
+    /*-------------------------------------搜索---------------------------------------------*/
+	 #select{width:850px;height:450px;border:4px solid black;box-shadow:0 0 20px gray;position:absolute;display:none;}
+	 #select img.sel_close{position:absolute;right:0px;top:0px}
+     #se_title{width:100%;height:40px;background-color:rgba(0,0,0,0.7);cursor:move;}
+	 #select .se_bottom{width:850px;height:410px;}
+	 #select .se_bottom iframe{width:845px;height:405px;}
+	 /*-----------------------------------搜索------------------------------------------------*/
+
+	 /*-----------------------------------旋转体---------------------------------------------*/
+   /*定义旋转规则开始*/
+   @keyframes myRotate{                        /*定义第一个旋转规则*/
+        from{transform:rotateX(0deg)}
+		to{transform:rotateX(-360deg)}
+   
+   
+   }
+   @keyframes myRotateTwo{                   /*定义第二个旋转规则*/
+        from{transform:rotate(0deg)}
+		to{transform:rotate(360deg)}
+   
+   }
+    @keyframes myRotateThree{                   /*定义第三个旋转规则*/
+        from{transform:rotateY(0deg)}
+		to{transform:rotateY(-360deg)}
+   
+   }
+   @keyframes myRotateFour{                   /*定义第四个旋转规则*/
+        from{transform:scale(0,0)}
+		to{transform:scale(1.01,1.01)}
+   
+   }
+
+	 /*定义旋转规则结束*/
+     #transform{       
+	          width:808px;height:400px;
+              perspective:800;      /*远景透视图*/
+			  position:absolute;
+			  top:150px;left:250px;
+			  display:none;
+			
+			 
+	 }
+     #transform ul{}
+	 #transform ul li{
+	           width:200px;height:360px;
+			   float:left;
+			   position:relative;
+			   transform-style:preserve-3d;      /*旋转风格变成3D*/
+			   transform:translateZ(-180px);     /*整体放进去*/
+			  
+			   }
+     #transform ul li{                /*设置整体运动状态*/
+	 animation-name:myRotate;
+	 animation-duration:4s;
+	 animation-timing-function:linear;
+	 animation-iteration-count:infinite;
+	 transform:translateZ(-180px) /*整体放进去*//* rotateX(-360deg)*/;
+			    /*transition-duration:2s;整体2s*/
+		   
+			   }
+     #transform ul li div{
+	                  width:200px;
+					  height:360px;				
+					  position:absolute;
+	           }
+     #transform ul li div:nth-child(1){
+	                  bottom:360px;
+					  transform-origin:bottom;  
+					  transform:translateZ(180px)/*全部面向前移动*/ rotateX(90deg);
+					  background-image:url("../images/xz_2.jpg");
+	 }
+	  #transform ul li div:nth-child(2){
+	                  top:360px;
+	                  transform-origin:top;
+                      transform:translateZ(180px)/*全部面向前移动*/ rotateX(-90deg);
+	                  background-image:url("../images/xz_4.jpg");
+	 }
+	  #transform ul li div:nth-child(3){ 
+	                transform:translateZ(180px);/*全部面向前移动*/
+					 background-image:url("../images/xz_1.jpg");
+	 
+	 
+	 }
+	  #transform ul li div:nth-child(4){
+	                transform:translateZ(-180px); /*全部面向前移动*//*定义 3D 转换，只是用 Z 轴的*/ 
+	                background-image:url("../images/xz_3.jpg");
+	  
+	 }
+	  #transform ul li div:nth-child(5){
+	                  right:200px;
+					  width:360px;
+	                  transform-origin:right;
+                      transform:translateZ(180px)/*全部面向前移动*/rotateY(-90deg);
+	 }
+	  #transform ul li div:nth-child(6){
+	                  left:200px;
+					  width:360px;
+	                  transform-origin:left;
+                      transform:translateZ(180px)/*全部面向前移动*/ rotateY(90deg);
+					  
+	                    
+	 }
+	 /*改变背景图片的位置开始*/
+	 #transform ul li:nth-child(1) div{ 
+	                     background-position:0;
+	 
+	               }
+	#transform ul li:nth-child(2) div{
+	                   background-position:-200px 0;
+	}
+	#transform ul li:nth-child(3) div{
+	                  background-position:-400px 0;
+	}
+	#transform ul li:nth-child(4) div{
+	                  background-position:-600px 0;
+	}
+	/*改变背景图片的位置结束*/
+
+	/*每个li的延迟时间开始*/
+	/*
+	#transform ul li:nth-child(1){
+	               animation-name:myRotate;
+				   animation-duration:2s;
+				   animation-delay:0.3s;
+	}
+	#transform ul li:nth-child(2){ 
+	               animation-name:myRotate;
+				   animation-duration:2s;
+				   animation-delay:0.6s;
+	                
+	}
+	#transform ul li:nth-child(3){
+	               animation-name:myRotate;
+				   animation-duration:2s;
+				   animation-delay:0.9s;
+	}
+	#transform ul li:nth-child(4){
+	               animation-name:myRotate;
+				   animation-duration:2s;
+				   animation-delay:1.2s;
+	}
+	/*每个li的延迟时间结束*/
+	/*--按钮开始----*/
+	#t_bottom{
+	      width:100px;height:20px;
+		  position:absolute;bottom:0px;right:10px;
+		  
+		  }
+	#t_bottom ol li{
+	     width:14px;height:14px;
+		 border-radius:7px;float:left;
+		 margin:4px;background-color:black;
+		 }
+    #t_bottom ol li:hover{background-color:white;cursor:pointer;}
+	/*--按钮结束----*/
+	/*------------------旋转体---------------------------------------------*/
+ /*-------------------------说说----------------------------------------*/
+     /*评论*/
+	 #containerSpeak{
+	      width:500px;height:180px;
+		  margin:50px auto;
+		  border:4px solid gray;box-shadow:1px 1px 8px gray;background-color:rgba(232,232,232,0.6);
+		  border-radius:6px;
+		  display:none;
+		  position:absolute;top:10px;left:400px
+		 
+		  }
+     #containerSpeak #c_title{
+	      background-color:rgba(0,0,0,0.4);
+	      text-align:center;
+		 
+		  
+		  }
+	 #containerSpeak .c_tarea{
+	      width:462px;height:88px;
+		  overflow:auto;
+		  color:black;
+		  border:2px solid gray;box-shadow:0 0 40px gray;
+		  margin:5px 50px 5px 18px;
+	 
+	     }
+     #containerSpeak .c_gif{
+	          display:block;
+			  float:left;
+			  width:40px;height:30px;
+			  text-align:center;
+			  margin-top:10px;margin-left:10px;
+	 
+	        }
+	 #containerSpeak .c_bottom{
+	           display:block;
+			   width:90px;height:35px;
+			   border-radius:5px;
+			   margin-right:20px;margin-top:10px;
+			   background-color:#ff8c1a;color:#f3f3f3;font-size:16px;letter-spacing:10px;
+			   text-indent:10px;
+			   text-align:center;
+			   line-height:35px;
+	           float:right;
+			    }
+     #containerSpeak .c_bottom:hover{color:white;background-color:#ff8409}
+	 #containerSpeak .c_expression{
+	           width:354px;height:460px;border:2px solid gray;box-shadow:0 0 20px gray;
+			   overflow:auto;
+			   margin-top:52px;margin-left:30px;
+			   display:none;
+	 }
+	 #containerSpeak .c_expression ul{}
+	 #containerSpeak .c_expression ul li{
+	           width:35px;height:35px;float:left;
+			   text-align:center;line-height:40px;
+			   cursor:pointer;
+			   
+			   }
+    #speak{  
+	           width:500px;height:88px;
+		       border:4px solid gray;box-shadow:0 0 40px gray;background-color:rgba(232,232,232,0.6);
+		       margin:0 auto;
+			   display:none;
+			   position:absolute;top:300px;left:400px;
+			   }
+    #speak .s_content{
+	           font-size:20px;font-weight:bold;color:#330000;
+	           width:300px;height:40px;line-height:40px;text-align:center;
+			   margin:20px auto;
+	
+	            }
+/*------------------------------说说------------------------------------------*/
+/*--------------------------图片----------------------------------------*/
+     .pict{
+	     width:920px;height:540px;
+		 margin:50px auto;
+		 overflow:auto;
+		 border:4px solid black;
+		 display:none;
+		 position:absolute;top:10px;left:200px
+		 }
+     .pict .p_title{
+	      color:white;
+		  font-size:16px;
+		  font-weight:bold;
+		  font-family:"微软雅黑";
+	      width:100%;height:40px;
+		  line-height:40px;
+		  background-color:rgba(0,0,0,0.7);
+		  text-indent:48px;
+		  position:relative;
+		  cursor:move;
+		  
+	 }
+     .pict img.picture{
+	       float:left;
+		   margin:10px;
+		   border:5px solid white; 
+		   box-shadow:0 0 10px #666;
+		   }
+	 .shadow{
+	       width:100%;height:100%;
+	       background-color:rgba(0,0,0,0.5);
+		   position:fixed;
+		   top:0;left:0;
+		   display:none;
+		   
+		   }
+      .show{
+	       width:400px;height:300px;
+		   position:fixed;
+		   left:485px;top:166px;
+		   background-color:white;
+		   display:none;
+		
+		   }
+      .show .s_left{
+	       position:absolute;
+		   left:-50px;
+		   top:150px;
+		   }
+      .show .s_right{
+	       position:absolute;
+		   right:-150px;
+		   top:150px;
+		   }
+  /*--------------------------图片----------------------------------------*/
+   /*--------------------------笔记本-------------------------------------*/
+  #read{width:500px;height:400px;position:absolute;top:100px;left:500px;display:none}
+  #read #r_title{
+                 display:block;
+                 width:auto;height:40px;
+				 border:1px solid gray;
+				 margin:0 auto;
+				 font-size:24px;
+				 text-align:center;
+				 font-family:"微软雅黑";
+				 background-color:rgba(0,0,0,0.2);
+				 cursor:move;
+				 position:relative;
+				 
+                }
+  #read #r_title img{
+                  position:absolute;
+				  top:0px;left:472px;
+     
+   
+                }
+  #read #note{
+                 font-family:"微软雅黑";
+			     text-indent:10px;
+				 width:498px;
+				 height:258px;
+				 background-color:#eee;
+				 
+			 }
+ 
+        /*--------------------------------------笔记本-----------------------------------------*/
+
+
+
+       /*--------------------------表盘闹钟--------------------------------------*/
+  
+    /*--------------------------表盘闹钟--------------------------------------*/
+  
+  .timebox{
+           width:160px;
+		   height:160px;
+		   margin:0 auto;
+		   position:fixed;
+		   top:-px;
+		   right:0px;
+		   
+
+
+		   }  
+  .timebox .t_box{
+           width:160px;
+		   height:160px;
+		 
+		   border-radius:80px;
+		   margin:0 auto;
+		   position:relative;
+
+		   }
+		   /*中心点*/
+ .timebox .t_box .radius{
+           width:20px;
+           height:20px;
+		   background:#000;
+		   border-radius:10px;
+		   position:absolute;
+		   top:70px;
+		   left:75px;}
+		   /*时分秒*/
+ .timebox .t_box #hour{
+           width:8px;
+		   height:45px;
+		   background:#000;
+		   position:absolute;
+		   top:34px;
+		   left:81px;
+		   transform-origin:bottom;
+		   }
+.timebox .t_box #min{ 
+           width:4px;
+		   height:60px;
+		   background:green;
+		   position:absolute;
+		   top:20px;
+		   left:83px;
+		   transform-origin:bottom;
+		   }
+.timebox .t_box #sec{
+           width:2px;
+		   height:73px;
+		   background:red;
+		   position:absolute;
+		   top:8px;
+		   left:84px;
+           transform-origin:bottom;
+		   } 
+		   /*刻度*/
+.timebox .t_box #kedu{}
+          
+#kedu li{ 
+           background:#fff;
+		   width:2px;
+		   height:5px;
+		   position:absolute;
+		   left:80px;
+		   transform-origin:center 80px;    /*设置旋转点*/
+		   
+		   }
+		   /*产生60个刻度*使用js*/
+#kedu li:nth-child(5n+1){height:15px;}
+
+
+/*#kedu li:nth-child(2){transform:rotate(6deg);}
+#kedu li:nth-child(3){transform:rotate(12deg);}
+#kedu li:nth-child(4){transform:rotate(18deg);}*/
+
+
+ /*--------------------------表盘闹钟--------------------------------------*/
+
+
+    /*--------------------------计算器------------------------------------*/
+   #cac{
+               width:830px;background:#eae8e9;    
+			   padding:10px;
+			   display:none;
+			   position:absolute;top:100px;left:50px;		  			 
+			   }			   
+   #cac #c_title{
+		       padding:10px 0 10px 0;
+		       background:#efefef;
+		       font-size:16px;
+			   color:#000;
+			   cursor:move;
+               position:relative;
+		  }
+   #cac #c_title img{
+              position:absolute;top:-1px; right:0px;
+			  }
+   #cac .c_show .c_txt{width:810px;height:42px;
+		       border:none;outline:none;font-size:34px;
+			   font-family:"微软雅黑";color:#999;
+			   line-height:42px;
+			   text-align:right;
+			   padding-right:20px;
+		  }
+		   #cac .c_key ul{border:#fff 1px solid;margin:14px 0;}
+		   #cac .c_key ul li{
+		       border:1px solid #fff;list-style:none;width:140px;height:65px;
+		       background:#dbdbdb;float:left;margin:11px;
+			   font-size:32px;text-align:center;
+			   line-height:65px;cursor:pointer;
+			   color:#000;
+							             
+		   }
+		   .clear{clear:both;}
+		   #cac .c_key ul li:hover{background:#FFF;}
+		   #cac .c_key .c_tool{background:#738FD8;}
+		   #cac .c_key .c_tool1{background:#F90;}
+
+/*-----------------------------计算器---------------------------------------*/
+
+  /*--------------------------音乐播放器---------------------------------------*/
+  #music{              
+            width:730px;height:470px;margin:40px auto;box-shadow:0 0 10px 0 #000;
+			display:none;
+			position:absolute;
+			
+			}
+  #music #m_left{
+            width:360px;height:470px;float:left;
+			
+			}
+  #m_left .l_title{ 
+            cursor:move;
+            width:100%;height:60px;font-size:20px;
+			text-align:center;line-height:60px;
+			background:url("../images/bg1.jpg")no-repeat top center;
+			color:gray;
+			font-weight:bold;
+			}
+  #m_left img.pic{display:block;}
+  #m_left .l_button{
+           width:360px;height:95px;
+		   background:url("../images/bg2.jpg"); 
+		   padding-top:25px; 
+		   }
+  #m_left .l_button .b_bon{
+           width:160px;height:26px;
+		   margin:0 auto;   
+		   }
+                       
+  #m_left .l_button .b_bon span.prev{
+           width:27px;height:26px;
+		   background:url("../images/sm_icon.png")-49px 0;
+		   display:block;float:left;
+		   margin-left:10px;
+		   }
+  #m_left .l_button .b_bon span.play{
+	       width:16px;height:26px;
+		   background:url("../images/sm_icon.png")-79px 0;display:block;float:left;
+		   margin:0 30px;
+		   }
+  #m_left .l_button .b_bon span.next{
+	       width:27px;height:26px;
+		   background:url("../images/sm_icon.png")-124px 0;
+		   display:block;
+		   float:right;
+		   margin-right:20px;
+		   }
+
+  #m_left .l_button .l_box{
+               width:100%;height:40px;
+			   }
+  #m_left .l_button .l_box .l_bon{
+            width:300px;height:20px;
+            background-color:#c6c6c6;
+            border-radius:8px;
+            margin-top:10px;
+		     float:left;
+			 margin-left:5px;
+			 margin-right:2px;
+   }
+  #m_left .l_button .l_box .l_bon
+  .l_bon1{
+                background-color:red;
+				border-radius:10px;
+                width:0%;
+				height:20px;
+            
+			 
+			}
+  #m_left .l_button .l_box span.l_time{
+          display:block;
+		  width:45px;height:20px;
+		  float:right;
+		  margin-top:10px;
+		  margin-right:4px;	 
+		  }
+  #music .m_right{
+            width:370px;height:470px;float:right;}
+  #music .m_right .r_title{
+            width:370px;height:60px;background:#ff8080;
+            text-align:center;line-height:60px;font-size:20px;}
+  #music .m_right .r_title img.t_right{position:absolute;top:-3px;right:-4px;}
+  #music .m_right .r_title img.t_left{position:absolute;top:-3px;right:28px;border-radius:14px;}
+  #music .m_right .r_music{
+            width:370px;height:410px;overflow:auto;}
+  #music .m_right .r_music ul li{
+           width:370px;height:41px;background:url("../images/bg4.png");}
+  #music .m_right .r_music ul li a{    
+           height:40px;/*看到低端实线*/
+           line-height:41px;
+           background:url("../images/play.png") no-repeat 10px 12px  ;
+		   display:block;
+           color:#8e8e8e;
+		   text-indent:30px;		   
+          }
+  #music .m_right  .r_music ul li a:hover{
+           color:#fff;
+		   border-bottom:1px solid #f14627;
+          }
+  #music .m_right .r_music ul li.active a{
+           color:#fff;
+		   border-bottom:1px solid #f14627;
+		   background:url("../images/pause.png") no-repeat 10px 12px;
+		   }
+
+ /*--------------------------------音乐播放器----------------------------------*/
+
+
+    /*---------------------------------桌面系统----------------------------------------*/   
+  body{
+       background-image:url("../images/win7.jpg");
+	   background-position:;
+	   background-size:cover;
+       background-attachment:fixed;       /*图片随着内容而变化*/
+	   font-size:14px;font-family:"微软雅黑";color:#fff;
+	   }
+
+  .Menu{
+         width:200px;height:287px;background:#fff;
+		 position:absolute;top:100px;left:100px;
+		 box-shadow:0 0 0 3px #6d6d6d;display:none}
+  .Menu ul{}
+  .Menu ul li{
+              position:relative;
+              width:200px ;
+			  height:40px;        
+			  text-align:center;
+			  line-height:40px; 
+			  border-bottom:1px solid #9d9d9d;
+			  color:#000;
+			  cursor:pointer;
+			  }
+ .Menu ul li img{
+              position:absolute;
+			  top:13px;
+              left:52px; 
+  }
+  .Menu ul li.active{
+              display:block;
+			  background:#e1e1e1;
+             }
+  /*.test{font-size:20px;color:#fff;}*/
+  #back{
+         width:695px;height:360px; 
+		 background:rgba(0,0,0,0.5);
+		 position:absolute;
+		 display:none;
+		
+		 }
+  #back #b_title{
+         width:100%;height:46px;background:url("../images/title_bg.jpg");
+		 line-height:46px;text-indent:10px;
+		 cursor:move;
+		 }
+  #back #b_title img{cursor:pointer;}
+  #back #b_title img{float:right;margin:10px 10px 0 0 };
+  #back  ul{}
+  #back  ul li{width:200px;height:125px;float:left;margin:10px 10px;}
+ /*----------------------------------桌面系统--------------------------------------*/  
+ /*------------------------------------图标----------------------------------------*/
+   /*------图库开始--------*/
+  #picture_icon{
+              width:100px;height:100px;position:fixed;top:10px;;         
+   }
+  #picture_icon:hover{background-color:rgba(0,0,0,0.2)}
+  #picture_icon img.i_icon{position:absolute;top:-9px;left:-10px;}
+  
+  #picture_icon span{ 
+          float:left;
+          position:absolute;
+          display:block;
+		  width:60px;height:20px; text-align:center;line-height:20px;
+		  border-radius:4px;
+		  background-color:black;
+		  left:18px;bottom:0px;
+  }
+    /*------图库结束--------*/
+  /*------说说开始--------*/
+   #picture_speak{width:100px;height:100px;position:fixed;top:130px;}
+   #picture_speak:hover{background-color:rgba(0,0,0,0.2)}
+   #picture_speak img.s_icon{position:absolute;top:px;left:5px;}
+   #picture_speak span{    
+          position:absolute;
+		  float:left;
+          display:block;
+		  width:60px;height:20px; text-align:center;line-height:20px;
+		  background-color:black;
+		  border-radius:4px;
+		  left:18px;bottom:0px; 
+  }
+   /*------说说结束--------*/
+   /*-------3D图开始---------*/
+    #picture_rotate{
+              width:100px;height:100px;position:fixed;top:250px;         
+   }
+   #picture_rotate img.r_icon{position:absolute;top:15px;left:15px;}
+   #picture_rotate:hover{background-color:rgba(0,0,0,0.2)}
+  
+    #picture_rotate span{ 
+          float:left;
+          position:absolute;
+          display:block;
+		  width:60px;height:20px; text-align:center;line-height:20px;
+		  border-radius:4px;
+		  background-color:black;
+		  left:18px;bottom:0px;
+  }
+   /*-------3D图结束----------*/
+   /*-------百度搜索开始------*/
+   #picture_select{
+              width:100px;height:100px;position:fixed;top:370px;         
+   }
+   #picture_select a img.se_icon{position:absolute;top:15px;left:15px;}
+   #picture_select:hover{background-color:rgba(0,0,0,0.2)}
+  
+   #picture_select span{ 
+          float:left;
+          position:absolute;
+          display:block;
+		  width:60px;height:20px; text-align:center;line-height:20px;
+		  border-radius:4px;
+		  background-color:black;
+		  left:18px;bottom:0px;
+  }
+
+
+    /*-------百度搜索结束------*/
+	/*--------腾讯视频开始-----*/
+     #picture_tengxunVideo{
+              width:100px;height:100px;position:fixed;top:490px;         
+   }
+   #picture_tengxunVideo a img.tengxun_icon{position:absolute;top:5px;left:-2px;}
+   #picture_tengxunVideo:hover{background-color:rgba(0,0,0,0.2)}
+  
+   #picture_tengxunVideo span{ 
+          float:left;
+          position:absolute;
+          display:block;
+		  width:60px;height:20px; text-align:center;line-height:20px;
+		  border-radius:4px;
+		  background-color:black;
+		  left:18px;bottom:0px;
+  }
+
+
+	/*--------腾讯视频结束-----*/
+	/*-----------WEBQQ开始-----*/
+    #picture_WEBQQ{
+              width:100px;height:100px;position:fixed;top:10px;left:120px         
+   }
+   #picture_WEBQQ a img.webqq_icon{position:absolute;top:5px;left:15px;}
+   #picture_WEBQQ:hover{background-color:rgba(0,0,0,0.2)}
+  
+   #picture_WEBQQ span{ 
+          float:left;
+          position:absolute;
+          display:block;
+		  width:60px;height:20px; text-align:center;line-height:20px;
+		  border-radius:4px;
+		  background-color:black;
+		  left:18px;bottom:0px;
+  }
+
+
+	/*-----------WEBQQ结束------*/
+	
+	/*------notebook开始--------*/
+	  #picture_notebook{
+              width:100px;height:100px;position:fixed;top:130px;left:120px         
+   }
+   #picture_notebook a img.notebook_icon{position:absolute;top:13px;left:15px;}
+   #picture_notebook:hover{background-color:rgba(0,0,0,0.2)}
+  
+   #picture_notebook span{ 
+          float:left;
+          position:absolute;
+          display:block;
+		  width:60px;height:20px; text-align:center;line-height:20px;
+		  border-radius:4px;
+		  background-color:black;
+		  left:18px;bottom:0px;
+  }
+	
+	
+	/*------notebook结束---------*/
+		/*------pictureupload开始--------*/
+	  #picture_pictureupload{
+              width:100px;height:100px;position:fixed;top:250px;left:120px;     
+              
+   }
+   #picture_pictureupload a img.pictureupload_icon{position:absolute;top:13px;left:17px;}
+   #picture_pictureupload:hover{background-color:rgba(0,0,0,0.2)}
+  
+   #picture_pictureupload span{ 
+          float:left;
+          position:absolute;
+          display:block;
+		  width:60px;height:20px; text-align:center;line-height:20px;
+		  border-radius:4px;
+		  background-color:black;
+		  left:18px;bottom:0px;
+  }
+	
+	
+	/*------pictureupload结束---------*/
+	
+/*----------bigpicture开始---------------*/
+   	  #picture_bigpicture{
+              width:100px;height:100px;position:fixed;top:370px;left:120px;     
+              
+   }
+   #picture_bigpicture a img.bigpicture_icon{position:absolute;top:13px;left:17px;}
+   #picture_bigpicture:hover{background-color:rgba(0,0,0,0.2)}
+  
+   #picture_bigpicture span{ 
+          float:left;
+          position:absolute;
+          display:block;
+		  width:60px;height:20px; text-align:center;line-height:20px;
+		  border-radius:4px;
+		  background-color:black;
+		  left:18px;bottom:0px;
+  }
+	
+
+	
+/*----------bigpicture结束---------------*/
+/*----------lookbigpicture开始-----------*/
+  #picture_lookbigpicture{
+              width:100px;height:100px;position:fixed;top:490px;left:120px;     
+              
+   }
+   #picture_lookbigpicture a img.lookbigpicture_icon{position:absolute;top:15px;left:9px;}
+   #picture_lookbigpicture:hover{background-color:rgba(0,0,0,0.2)}
+  
+   #picture_lookbigpicture span{ 
+          float:left;
+          position:absolute;
+          display:block;
+		  width:60px;height:20px; text-align:center;line-height:20px;
+		  border-radius:4px;
+		  background-color:black;
+		  left:18px;bottom:0px;
+  }
+	
+/*----------lookbigpicture结束------------*/
+
+/*-----------website开始------------------*/
+   #picture_website{
+              width:100px;height:100px;position:fixed;top:10px;left:240px         
+   }
+   #picture_website a img.website_icon{position:absolute;top:5px;left:15px;}
+   #picture_website:hover{background-color:rgba(0,0,0,0.2)}
+  
+   #picture_website span{ 
+          float:left;
+          position:absolute;
+          display:block;
+		  width:60px;height:20px; text-align:center;line-height:20px;
+		  border-radius:4px;
+		  background-color:black;
+		  left:18px;bottom:0px;
+  }
+
+
+/*-----------website结束------------------*/
+
+/*----------websiteurl开始---------------------*/
+   #picture_websiteurl{
+              width:100px;height:100px;position:fixed;top:130px;left:240px         
+   }
+   #picture_websiteurl a img.websiteurl_icon{position:absolute;top:5px;left:13px;}
+   #picture_websiteurl:hover{background-color:rgba(0,0,0,0.2)}
+  
+   #picture_websiteurl span{ 
+          float:left;
+          position:absolute;
+          display:block;
+		  width:60px;height:20px; text-align:center;line-height:20px;
+		  border-radius:4px;
+		  background-color:black;
+		  left:18px;bottom:0px;
+  }
+
+
+
+/*----------websiteurl结束---------------------*/
+
+
+   /*------文件开始---------*/
+     
+    /*------文件结束---------*/
+ /*------------------------------------图标----------------------------------------*/
