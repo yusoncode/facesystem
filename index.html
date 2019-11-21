@@ -1,0 +1,2816 @@
+<!doctype html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type"content="text/html;charset=UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="关键词，关键词">
+  <meta name="Description" content="描述76-80字">
+  <title>桌面系统</title>
+  <style type="text/css"> 
+     *{margin:0;padding:0}
+     body{font-size:14px;font-family:"微软雅黑";
+	 overflow-y: hidden;
+     overflow-x: hidden;}
+	 a{text-decoration:none;}
+	 ul ol,li{list-style-type:none;}
+	 ::-webkit-scrollbar{width:6px;height:6px;background-color:gray;}
+	 ::-webkit-scrollbar-thumb{width:6px;height:6px;background-color:#f7f7f7;border-radius:3px;}
+	/*------------------------------------------途牛网--------------------------------------------*/
+	   #tuniu{width:850px;height:450px;border:4px solid black;box-shadow:0 0 20px gray;position:absolute;visibility:hidden/*占用位置*/}
+	  #tuniu img.tuniu_close{position:absolute;right:0px;top:0px}
+	  #tuniu a.big{display:block;width:30px;height:18px;position:absolute;right:37px;top:4px;border:1px solid white;box-shadow:0 0 5px gray;}
+      #tuniu_title{width:100%;height:40px;background-color:rgba(0,0,0,0.7);cursor:move;}
+	  #tuniu .tuniu_bottom{width:850px;height:410px;}
+	  #tuniu .tuniu_bottom iframe{width:845px;height:410px;}
+	 /*-------------------------------途牛网--------------------------------------------------*/
+	 /*-------------------------------淘宝------------------------------------------------------*/
+	  #taobao{width:850px;height:450px;border:4px solid black;box-shadow:0 0 20px gray;position:absolute;visibility:hidden/*占用位置*/}
+	  #taobao img.taobao_close{position:absolute;right:0px;top:0px}
+	  #taobao a.big{display:block;width:30px;height:18px;position:absolute;right:37px;top:4px;border:1px solid white;box-shadow:0 0 5px gray;}
+      #taobao_title{width:100%;height:40px;background-color:rgba(0,0,0,0.7);cursor:move;}
+	  #taobao .taobao_bottom{width:850px;height:410px;}
+	  #taobao .taobao_bottom iframe{width:845px;height:410px;}
+	  /*------------------------------淘宝---------------------------------------------------------*/
+	  /*------------------------------win8------------------------------------------------------*/
+	  #win8{
+	       width:100%;height:40px;
+		   position:absolute;bottom:0px;left:0px;
+		   background-color:rgba(255,255,255,0.5);
+		   }
+	 #win8_icon{bottom:0px;margin-left:5px;}
+     #win8 li{width:60px;height:40px;}
+     #win8 li:hover{background-color:#efefef;}
+     
+	 #win8_page{
+	       width:200px;height:300px;
+		   position:absolute;
+		   bottom:40px;left:0px;
+		   background-color:rgba(0,0,0,0.7);
+		   display:none;
+		   }
+	 #win8_page ul{margin-left:20px;margin-top:20px}
+     #win8_page ul li{width:100px;height:80px;margin-top:5px;text-align:center;}
+	 #win8_page ul li:hover{background-color:rgba(0,0,0,0.4)}
+	 #win8_page ul li img{margin-top:20px;}
+	 #win8_page ul li span{display:block;color:white;}
+	 /*------------------------------win8------------------------------------------------------*/
+/*----------------------------------W3Cschool-------------------------------------------------*/
+	   #W3Cschool{width:850px;height:450px;border:4px solid black;box-shadow:0 0 20px gray;position:absolute;visibility:hidden/*占用位置*/}
+	  #W3Cschool img.w3c_close{position:absolute;right:0px;top:0px}
+	  #W3Cschool a.big{display:block;width:30px;height:18px;position:absolute;right:37px;top:4px;border:1px solid white;box-shadow:0 0 5px gray;}
+      #w3c_title{width:100%;height:40px;background-color:rgba(0,0,0,0.7);cursor:move;}
+	  #W3Cschool .w3c_bottom{width:850px;height:410px;}
+	  #W3Cschool .w3c_bottom iframe{width:845px;height:410px;}
+	 /*----------------------------------W3Cschool-------------------------------------------------*/
+	 /*-----------------------------------WEBQQ---------------------------------------------------*/
+	  #webqq{width:850px;height:450px;border:4px solid black;box-shadow:0 0 20px gray;position:absolute;visibility:hidden/*占用位置*/}
+	  #webqq img.webqq_close{position:absolute;right:0px;top:0px}
+	  #webqq a.big{display:block;width:30px;height:18px;position:absolute;right:37px;top:4px;border:1px solid white;box-shadow:0 0 5px gray;}
+      #webqq_title{width:100%;height:40px;background-color:rgba(0,0,0,0.7);cursor:move;}
+	  #webqq .webqq_bottom{width:850px;height:410px;}
+	  #webqq .webqq_bottom iframe{width:845px;height:406px;}
+	 /*---------------------------------------WEBQQ------------------------------------------*/
+	  /*-----------------------------------腾讯视频----------------------------------------*/
+      #tengxun_video{width:850px;height:450px;border:4px solid black;box-shadow:0 0 20px gray;position:absolute;visibility:hidden/*占用位置*/}
+	  #tengxun_video img.tengxun_close{position:absolute;right:0px;top:0px}
+	  #tengxun_video a.big{display:block;width:30px;height:18px;position:absolute;right:37px;top:4px;border:1px solid white;box-shadow:0 0 5px gray;}
+      #tengxun_title{width:100%;height:40px;background-color:rgba(0,0,0,0.7);cursor:move;}
+	  #tengxun_video .tenngxun_bottom{width:850px;height:410px;}
+	  #tengxun_video .tenngxun_bottom iframe{width:846px;height:406px;}
+	 /*-----------------------------------腾讯视频----------------------------------------*/
+    /*-------------------------------------搜索---------------------------------------------*/
+	 #select{width:850px;height:450px;border:4px solid black;box-shadow:0 0 20px gray;position:absolute;display:none;}
+	 #select img.sel_close{position:absolute;right:0px;top:0px}
+     #se_title{width:100%;height:40px;background-color:rgba(0,0,0,0.7);cursor:move;}
+	 #select .se_bottom{width:850px;height:410px;}
+	 #select .se_bottom iframe{width:845px;height:405px;}
+	 /*-----------------------------------搜索------------------------------------------------*/
+	 /*-----------------------------------旋转体---------------------------------------------*/
+   /*定义旋转规则开始*/
+   @keyframes myRotate{                        /*定义第一个旋转规则*/
+        from{transform:rotateX(0deg)}
+		to{transform:rotateX(-360deg)}
+   
+   
+   }
+   @keyframes myRotateTwo{                   /*定义第二个旋转规则*/
+        from{transform:rotate(0deg)}
+		to{transform:rotate(360deg)}
+   
+   }
+    @keyframes myRotateThree{                   /*定义第三个旋转规则*/
+        from{transform:rotateY(0deg)}
+		to{transform:rotateY(-360deg)}
+   
+   }
+   @keyframes myRotateFour{                   /*定义第四个旋转规则*/
+        from{transform:scale(0,0)}
+		to{transform:scale(1.01,1.01)}
+   
+   }
+	 /*定义旋转规则结束*/
+     #transform{       
+	          width:808px;height:400px;
+              perspective:800;      /*远景透视图*/
+			  position:absolute;
+			  top:150px;left:250px;
+			  display:none;
+			
+			 
+	 }
+     #transform ul{}
+	 #transform ul li{
+	           width:200px;height:360px;
+			   float:left;
+			   position:relative;
+			   transform-style:preserve-3d;      /*旋转风格变成3D*/
+			   transform:translateZ(-180px);     /*整体放进去*/
+			  
+			   }
+     #transform ul li{                /*设置整体运动状态*/
+	 animation-name:myRotate;
+	 animation-duration:4s;
+	 animation-timing-function:linear;
+	 animation-iteration-count:infinite;
+	 transform:translateZ(-180px) /*整体放进去*//* rotateX(-360deg)*/;
+			    /*transition-duration:2s;整体2s*/
+		   
+			   }
+     #transform ul li div{
+	                  width:200px;
+					  height:360px;				
+					  position:absolute;
+	           }
+     #transform ul li div:nth-child(1){
+	                  bottom:360px;
+					  transform-origin:bottom;  
+					  transform:translateZ(180px)/*全部面向前移动*/ rotateX(90deg);
+					  background-image:url("images/xz_2.jpg");
+	 }
+	  #transform ul li div:nth-child(2){
+	                  top:360px;
+	                  transform-origin:top;
+                      transform:translateZ(180px)/*全部面向前移动*/ rotateX(-90deg);
+	                  background-image:url("images/xz_4.jpg");
+	 }
+	  #transform ul li div:nth-child(3){ 
+	                transform:translateZ(180px);/*全部面向前移动*/
+					 background-image:url("images/xz_1.jpg");
+	 
+	 
+	 }
+	  #transform ul li div:nth-child(4){
+	                transform:translateZ(-180px); /*全部面向前移动*//*定义 3D 转换，只是用 Z 轴的*/ 
+	                background-image:url("images/xz_3.jpg");
+	  
+	 }
+	  #transform ul li div:nth-child(5){
+	                  right:200px;
+					  width:360px;
+	                  transform-origin:right;
+                      transform:translateZ(180px)/*全部面向前移动*/rotateY(-90deg);
+	 }
+	  #transform ul li div:nth-child(6){
+	                  left:200px;
+					  width:360px;
+	                  transform-origin:left;
+                      transform:translateZ(180px)/*全部面向前移动*/ rotateY(90deg);
+					  
+	                    
+	 }
+	 /*改变背景图片的位置开始*/
+	 #transform ul li:nth-child(1) div{ 
+	                     background-position:0;
+	 
+	               }
+	#transform ul li:nth-child(2) div{
+	                   background-position:-200px 0;
+	}
+	#transform ul li:nth-child(3) div{
+	                  background-position:-400px 0;
+	}
+	#transform ul li:nth-child(4) div{
+	                  background-position:-600px 0;
+	}
+	/*改变背景图片的位置结束*/
+	/*每个li的延迟时间开始*/
+	/*
+	#transform ul li:nth-child(1){
+	               animation-name:myRotate;
+				   animation-duration:2s;
+				   animation-delay:0.3s;
+	}
+	#transform ul li:nth-child(2){ 
+	               animation-name:myRotate;
+				   animation-duration:2s;
+				   animation-delay:0.6s;
+	                
+	}
+	#transform ul li:nth-child(3){
+	               animation-name:myRotate;
+				   animation-duration:2s;
+				   animation-delay:0.9s;
+	}
+	#transform ul li:nth-child(4){
+	               animation-name:myRotate;
+				   animation-duration:2s;
+				   animation-delay:1.2s;
+	}
+	/*每个li的延迟时间结束*/
+	/*--按钮开始----*/
+	#t_bottom{
+	      width:100px;height:20px;
+		  position:absolute;bottom:0px;right:10px;
+		  
+		  }
+	#t_bottom ol li{
+	     width:14px;height:14px;
+		 border-radius:7px;float:left;
+		 margin:4px;background-color:black;
+		 }
+    #t_bottom ol li:hover{background-color:white;cursor:pointer;}
+	/*--按钮结束----*/
+	/*------------------旋转体---------------------------------------------*/
+ /*-------------------------说说----------------------------------------*/
+     /*评论*/
+	 #containerSpeak{
+	      width:500px;height:180px;
+		  margin:50px auto;
+		  border:4px solid gray;box-shadow:1px 1px 8px gray;background-color:rgba(232,232,232,0.6);
+		  border-radius:6px;
+		  display:none;
+		  position:absolute;top:10px;left:400px
+		 
+		  }
+     #containerSpeak #c_title{
+	      background-color:rgba(0,0,0,0.4);
+	      text-align:center;
+		 
+		  
+		  }
+	 #containerSpeak .c_tarea{
+	      width:462px;height:88px;
+		  overflow:auto;
+		  color:black;
+		  border:2px solid gray;box-shadow:0 0 40px gray;
+		  margin:5px 50px 5px 18px;
+	 
+	     }
+     #containerSpeak .c_gif{
+	          display:block;
+			  float:left;
+			  width:40px;height:30px;
+			  text-align:center;
+			  margin-top:10px;margin-left:10px;
+	 
+	        }
+	 #containerSpeak .c_bottom{
+	           display:block;
+			   width:90px;height:35px;
+			   border-radius:5px;
+			   margin-right:20px;margin-top:10px;
+			   background-color:#ff8c1a;color:#f3f3f3;font-size:16px;letter-spacing:10px;
+			   text-indent:10px;
+			   text-align:center;
+			   line-height:35px;
+	           float:right;
+			    }
+     #containerSpeak .c_bottom:hover{color:white;background-color:#ff8409}
+	 #containerSpeak .c_expression{
+	           width:354px;height:460px;border:2px solid gray;box-shadow:0 0 20px gray;
+			   overflow:auto;
+			   margin-top:52px;margin-left:30px;
+			   display:none;
+	 }
+	 #containerSpeak .c_expression ul{}
+	 #containerSpeak .c_expression ul li{
+	           width:35px;height:35px;float:left;
+			   text-align:center;line-height:40px;
+			   cursor:pointer;
+			   
+			   }
+    #speak{  
+	           width:500px;height:88px;
+		       border:4px solid gray;box-shadow:0 0 40px gray;background-color:rgba(232,232,232,0.6);
+		       margin:0 auto;
+			   display:none;
+			   position:absolute;top:300px;left:400px;
+			   }
+    #speak .s_content{
+	           font-size:20px;font-weight:bold;color:#330000;
+	           width:300px;height:40px;line-height:40px;text-align:center;
+			   margin:20px auto;
+	
+	            }
+/*------------------------------说说------------------------------------------*/
+/*--------------------------图片----------------------------------------*/
+     .pict{
+	     width:920px;height:540px;
+		 margin:50px auto;
+		 overflow:auto;
+		 border:4px solid black;
+		 display:none;
+		 position:absolute;top:10px;left:200px
+		 }
+     .pict .p_title{
+	      color:white;
+		  font-size:16px;
+		  font-weight:bold;
+		  font-family:"微软雅黑";
+	      width:100%;height:40px;
+		  line-height:40px;
+		  background-color:rgba(0,0,0,0.7);
+		  text-indent:48px;
+		  position:relative;
+		  cursor:move;
+		  
+	 }
+     .pict img.picture{
+	       float:left;
+		   margin:10px;
+		   border:5px solid white; 
+		   box-shadow:0 0 10px #666;
+		   }
+	 .shadow{
+	       width:100%;height:100%;
+	       background-color:rgba(0,0,0,0.5);
+		   position:fixed;
+		   top:0;left:0;
+		   display:none;
+		   
+		   }
+      .show{
+	       width:400px;height:300px;
+		   position:fixed;
+		   left:485px;top:166px;
+		   background-color:white;
+		   display:none;
+		
+		   }
+      .show .s_left{
+	       position:absolute;
+		   left:-50px;
+		   top:150px;
+		   }
+      .show .s_right{
+	       position:absolute;
+		   right:-150px;
+		   top:150px;
+		   }
+  /*--------------------------图片----------------------------------------*/
+   /*--------------------------笔记本-------------------------------------*/
+  #read{width:500px;height:400px;position:absolute;top:100px;left:500px;display:none}
+  #read #r_title{
+                 display:block;
+                 width:auto;height:40px;
+				 border:1px solid gray;
+				 margin:0 auto;
+				 font-size:24px;
+				 text-align:center;
+				 font-family:"微软雅黑";
+				 background-color:rgba(0,0,0,0.2);
+				 cursor:move;
+				 position:relative;
+				 
+                }
+  #read #r_title img{
+                  position:absolute;
+				  top:0px;left:472px;
+     
+   
+                }
+  #read #note{
+                 font-family:"微软雅黑";
+			     text-indent:10px;
+				 width:498px;
+				 height:258px;
+				 background-color:#eee;
+				 
+			 }
+ 
+        /*--------------------------------------笔记本-----------------------------------------*/
+       /*--------------------------表盘闹钟--------------------------------------*/
+  
+  .timebox{
+           width:200px;
+		   height:200px;
+		   margin:0 auto;
+		   position:fixed;
+		   top:10px;
+		   right:0px;
+		   }  
+  .timebox .t_box{
+           width:200px;
+		   height:200px;
+		   border:1px solid black;
+		   border-radius:100px;
+		   margin:0 auto;
+		   position:relative;
+		   }
+		   /*中心点*/
+ .timebox .t_box .radius{
+           width:20px;
+           height:20px;
+		   background:#000;
+		   border-radius:10px;
+		   position:absolute;
+		   top:90px;
+		   left:90px;}
+		   /*时分秒*/
+ .timebox .t_box #hour{
+           width:8px;
+		   height:45px;
+		   background:#000;
+		   position:absolute;
+		   top:55px;
+		   left:96px;
+		   transform-origin:bottom;
+		   }
+.timebox .t_box #min{ 
+           width:4px;
+		   height:60px;
+		   background:green;
+		   position:absolute;
+		   top:40px;
+		   left:98px;
+		   transform-origin:bottom
+		   }
+.timebox .t_box #sec{
+           width:2px;
+		   height:80px;
+		   background:red;
+		   position:absolute;
+		   top:20px;
+		   left:99px;
+           transform-origin:bottom;
+		   } 
+		   /*刻度*/
+.timebox .t_box #kedu{}
+          
+#kedu li{ 
+           background:#fff;
+		   width:2px;
+		   height:5px;
+		   position:absolute;
+		   left:99px;
+		   transform-origin:center 100px;    /*设置旋转点*/
+		   
+		   }
+		   /*产生60个刻度*使用js*/
+#kedu li:nth-child(5n+1){height:15px;}
+/*#kedu li:nth-child(2){transform:rotate(6deg);}
+#kedu li:nth-child(3){transform:rotate(12deg);}
+#kedu li:nth-child(4){transform:rotate(18deg);}*/
+ /*--------------------------表盘闹钟--------------------------------------*/
+    /*--------------------------计算器------------------------------------*/
+   #cac{
+               width:830px;background:#eae8e9;    
+			   padding:10px;
+			   display:none;
+			   position:absolute;top:100px;left:50px;		  			 
+			   }			   
+   #cac #c_title{
+		       padding:10px 0 10px 0;
+		       background:#efefef;
+		       font-size:16px;
+			   color:#000;
+			   cursor:move;
+               position:relative;
+		  }
+   #cac #c_title img{
+              position:absolute;top:-1px; right:0px;
+			  }
+   #cac .c_show .c_txt{width:810px;height:42px;
+		       border:none;outline:none;font-size:34px;
+			   font-family:"微软雅黑";color:#999;
+			   line-height:42px;
+			   text-align:right;
+			   padding-right:20px;
+		  }
+		   #cac .c_key ul{border:#fff 1px solid;margin:14px 0;}
+		   #cac .c_key ul li{
+		       border:1px solid #fff;list-style:none;width:140px;height:65px;
+		       background:#dbdbdb;float:left;margin:11px;
+			   font-size:32px;text-align:center;
+			   line-height:65px;cursor:pointer;
+			   color:#000;
+							             
+		   }
+		   .clear{clear:both;}
+		   #cac .c_key ul li:hover{background:#FFF;}
+		   #cac .c_key .c_tool{background:#738FD8;}
+		   #cac .c_key .c_tool1{background:#F90;}
+/*-----------------------------计算器---------------------------------------*/
+  /*--------------------------音乐播放器---------------------------------------*/
+  #music{              
+            width:730px;height:470px;margin:40px auto;box-shadow:0 0 10px 0 #000;
+			display:none;
+			position:absolute;
+			
+			}
+  #music #m_left{
+            width:360px;height:470px;float:left;
+			
+			}
+  #m_left .l_title{ 
+            cursor:move;
+            width:100%;height:60px;font-size:20px;
+			text-align:center;line-height:60px;
+			background:url("images/bg1.jpg")no-repeat top center;
+			color:gray;
+			font-weight:bold;
+			}
+  #m_left img.pic{display:block;}
+  #m_left .l_button{
+           width:360px;height:95px;
+		   background:url("images/bg2.jpg"); 
+		   padding-top:25px; 
+		   }
+  #m_left .l_button .b_bon{
+           width:160px;height:26px;
+		   margin:0 auto;   
+		   }
+                       
+  #m_left .l_button .b_bon span.prev{
+           width:27px;height:26px;
+		   background:url("images/sm_icon.png")-49px 0;
+		   display:block;float:left;
+		   margin-left:10px;
+		   }
+  #m_left .l_button .b_bon span.play{
+	       width:16px;height:26px;
+		   background:url("images/sm_icon.png")-79px 0;display:block;float:left;
+		   margin:0 30px;
+		   }
+  #m_left .l_button .b_bon span.next{
+	       width:27px;height:26px;
+		   background:url("images/sm_icon.png")-124px 0;
+		   display:block;
+		   float:right;
+		   margin-right:20px;
+		   }
+  #m_left .l_button .l_box{
+               width:100%;height:40px;
+			   }
+  #m_left .l_button .l_box .l_bon{
+            width:300px;height:20px;
+            background-color:#c6c6c6;
+            border-radius:8px;
+            margin-top:10px;
+		     float:left;
+			 margin-left:5px;
+			 margin-right:2px;
+   }
+  #m_left .l_button .l_box .l_bon
+  .l_bon1{
+                background-color:red;
+				border-radius:10px;
+                width:0%;
+				height:20px;
+            
+			 
+			}
+  #m_left .l_button .l_box span.l_time{
+          display:block;
+		  width:45px;height:20px;
+		  float:right;
+		  margin-top:10px;
+		  margin-right:4px;	 
+		  }
+  #music .m_right{
+            width:370px;height:470px;float:right;}
+  #music .m_right .r_title{
+            width:370px;height:60px;background:#ff8080;
+            text-align:center;line-height:60px;font-size:20px;}
+  #music .m_right .r_title img.t_right{position:absolute;top:-3px;right:-4px;}
+  #music .m_right .r_title img.t_left{position:absolute;top:-3px;right:28px;border-radius:14px;}
+  #music .m_right .r_music{
+            width:370px;height:410px;overflow:auto;}
+  #music .m_right .r_music ul li{
+           width:370px;height:41px;background:url("images/bg4.png");}
+  #music .m_right .r_music ul li a{    
+           height:40px;/*看到低端实线*/
+           line-height:41px;
+           background:url("images/play.png") no-repeat 10px 12px  ;
+		   display:block;
+           color:#8e8e8e;
+		   text-indent:30px;		   
+          }
+  #music .m_right  .r_music ul li a:hover{
+           color:#fff;
+		   border-bottom:1px solid #f14627;
+          }
+  #music .m_right .r_music ul li.active a{
+           color:#fff;
+		   border-bottom:1px solid #f14627;
+		   background:url("images/pause.png") no-repeat 10px 12px;
+		   }
+    /*--------------------------------音乐播放器----------------------------------*/
+    /*---------------------------------桌面系统----------------------------------------*/   
+  body{
+       background-image:url("images/win7.jpg");
+	   background-position:;
+	   background-size:cover;
+       background-attachment:fixed;       /*图片随着内容而变化*/
+	   font-size:14px;font-family:"微软雅黑";color:#fff;
+	   }
+  .Menu{
+         width:200px;height:287px;background:#fff;
+		 position:absolute;top:100px;left:100px;
+		 box-shadow:0 0 0 3px #6d6d6d;display:none}
+  .Menu ul{}
+  .Menu ul li{
+              position:relative;
+              width:200px ;
+			  height:40px;        
+			  text-align:center;
+			  line-height:40px; 
+			  border-bottom:1px solid #9d9d9d;
+			  color:#000;
+			  cursor:pointer;
+			  }
+ .Menu ul li img{
+              position:absolute;
+			  top:13px;
+              left:52px; 
+  }
+  .Menu ul li.active{
+              display:block;
+			  background:#e1e1e1;
+             }
+  .test{font-size:20px;color:#fff;}
+  #back{
+         width:695px;height:360px; 
+		 background:rgba(0,0,0,0.5);
+		 position:absolute;
+		 display:none;
+		
+		 }
+  #back #b_title{
+         width:100%;height:46px;background:url("images/title_bg.jpg");
+		 line-height:46px;text-indent:10px;
+		 cursor:move;
+		 }
+  #back #b_title img{cursor:pointer;}
+  #back #b_title img{float:right;margin:10px 10px 0 0 };
+  #back  ul{}
+  #back  ul li{width:200px;height:125px;float:left;margin:10px 10px;}
+ /*----------------------------------桌面系统--------------------------------------*/  
+ /*------------------------------------图标----------------------------------------*/
+   /*------图库开始--------*/
+  #picture_icon{
+              width:100px;height:100px;position:fixed;top:10px;         
+   }
+  #picture_icon:hover{background-color:rgba(0,0,0,0.2)}
+  
+  #picture_icon span{ 
+          float:left;
+          position:absolute;
+          display:block;
+		  width:60px;height:20px; text-align:center;line-height:20px;
+		  border-radius:4px;
+		  background-color:black;
+		  left:18px;bottom:0px;
+  }
+    /*------图库结束--------*/
+  /*------说说开始--------*/
+   #picture_speak{width:100px;height:100px;position:fixed;top:130px;}
+   #picture_speak:hover{background-color:rgba(0,0,0,0.2)}
+   #picture_speak img.s_icon{position:absolute;top:px;left:5px;}
+   #picture_speak span{    
+          position:absolute;
+		  float:left;
+          display:block;
+		  width:60px;height:20px; text-align:center;line-height:20px;
+		  background-color:black;
+		  border-radius:4px;
+		  left:18px;bottom:0px; 
+  }
+   /*------说说结束--------*/
+   /*-------3D图开始---------*/
+    #picture_rotate{
+              width:100px;height:100px;position:fixed;top:250px;         
+   }
+   #picture_rotate img.r_icon{position:absolute;top:15px;left:15px;}
+   #picture_rotate:hover{background-color:rgba(0,0,0,0.2)}
+  
+    #picture_rotate span{ 
+          float:left;
+          position:absolute;
+          display:block;
+		  width:60px;height:20px; text-align:center;line-height:20px;
+		  border-radius:4px;
+		  background-color:black;
+		  left:18px;bottom:0px;
+  }
+   /*-------3D图结束----------*/
+   /*-------百度搜索开始------*/
+   #picture_select{
+              width:100px;height:100px;position:fixed;top:370px;         
+   }
+   #picture_select a img.se_icon{position:absolute;top:15px;left:15px;}
+   #picture_select:hover{background-color:rgba(0,0,0,0.2)}
+  
+   #picture_select span{ 
+          float:left;
+          position:absolute;
+          display:block;
+		  width:60px;height:20px; text-align:center;line-height:20px;
+		  border-radius:4px;
+		  background-color:black;
+		  left:18px;bottom:0px;
+  }
+    /*-------百度搜索结束------*/
+	/*--------腾讯视频开始-----*/
+     #picture_tengxunVideo{
+              width:100px;height:100px;position:fixed;top:490px;         
+   }
+   #picture_tengxunVideo a img.tengxun_icon{position:absolute;top:5px;left:-2px;}
+   #picture_tengxunVideo:hover{background-color:rgba(0,0,0,0.2)}
+  
+   #picture_tengxunVideo span{ 
+          float:left;
+          position:absolute;
+          display:block;
+		  width:60px;height:20px; text-align:center;line-height:20px;
+		  border-radius:4px;
+		  background-color:black;
+		  left:18px;bottom:0px;
+  }
+	/*--------腾讯视频结束-----*/
+	/*-----------WEBQQ开始-----*/
+    #picture_WEBQQ{
+              width:100px;height:100px;position:fixed;top:10px;left:120px         
+   }
+   #picture_WEBQQ a img.webqq_icon{position:absolute;top:5px;left:15px;}
+   #picture_WEBQQ:hover{background-color:rgba(0,0,0,0.2)}
+  
+   #picture_WEBQQ span{ 
+          float:left;
+          position:absolute;
+          display:block;
+		  width:60px;height:20px; text-align:center;line-height:20px;
+		  border-radius:4px;
+		  background-color:black;
+		  left:18px;bottom:0px;
+  }
+	/*-----------WEBQQ结束------*/
+   /*------文件开始---------*/
+     
+    /*------文件结束---------*/
+ /*------------------------------------图标----------------------------------------*/
+  </style>
+ </head>
+ <body>
+  <!--图标开始-->
+  <div id="picture_icon">
+     <img src="images/图库.png"alt="图库"width="100"height="100" class="i_icon"/>
+        <span>图库</span>
+  </div>
+
+  <div id="picture_speak">
+    <img src="images/说说.png" alt="说说"width="85"height="85"class="s_icon"/>
+	   <span>说说</span>
+    </div>
+
+  <div id="picture_rotate">
+    <img src="images/3D.gif" alt="3D图"width="62"height="62"class="r_icon"/>
+	    <span>3D图</span>
+  
+  </div>
+
+  <div id="picture_select">
+    <a href="https://www.baidu.com/" target="show">
+        <img src="images/搜索.gif" alt="搜索" width="62"height="62"class="se_icon"/>
+	</a>
+	    <span>搜索</span>
+  
+  </div>
+
+   <div id="picture_tengxunVideo">
+    <a href="http://v.qq.com/cover/l/llcj2tlwn1jn8y7.html" target="show_video">
+        <img src="images/腾讯视频.gif" alt="腾讯视频" width="100"height="85"class="tengxun_icon"/>
+	</a>
+	    <span>腾讯视频</span>
+  
+  </div>
+
+  <div id="picture_WEBQQ">
+    <a href="http://web2.qq.com/" target="show_WEBQQ">
+        <img src="images/WEBQQ.gif" alt="WEBQQ" width="75" height="75"class="webqq_icon"/>
+	</a>
+	    <span>WEBQQ</span>
+  
+  </div>
+
+ <!-- <div id="file">
+      <img src=""alt="文件"width="100"height="100" class="f_icon"/>
+	      <span>文件</span>
+  
+  </div>
+  -->
+  
+  <!----图标结束-->
+
+<!------------------------------桌面系统--------------------------------------->
+
+ <p class="test" style="font-size:8px;position:fixed;top:0;left:0"></p>
+      <div class="Menu">
+	       <ul>  <!--li序列号从0开始-->
+		      <li class="active"><img src="images/ico1.jpg" width="16" height="16">添加播放器</li>
+			  <li><img src="images/ico2.jpg" width="16" height="18">计算器</li>
+			  <li><img src="images/ico3.jpg" width="16" height="16">添加笔记</li>
+			  <li><img src="images/ico4.jpg" width="18" height="17">刷新</li>
+			  <li><img src="images/ico5.jpg" width="15" height="15">地图</li>
+			  <li><img src="images/ico6.jpg" width="16" height="13">更换背景</li>
+			  <li><img src="images/ico7.jpg" width="17" height="15">注销</li>
+		   </ul>
+	  </div>
+	  <div id="back"  style="left:320px;top:140px;overflow:auto">
+	      <div id="b_title">桌面背景墙
+		  <img src="images/close.png" width="27" height="27" />
+		  </div> 	 
+		   <ul>
+		     <li><img src="images/s_1.jpg" width="200" height="125"dataSrc="images/1.jpg"/></li>
+		     <li><img src="images/s_2.jpg" width="200" height="125"dataSrc="images/2.jpg"/></li>
+			 <li><img src="images/s_3.jpg" width="200" height="125"dataSrc="images/3.jpg"/></li>
+			 <li><img src="images/s_4.jpg" width="200" height="125"dataSrc="images/4.jpg"/></li>
+			 <li><img src="images/s_5.jpg" width="200" height="125"dataSrc="images/5.jpg"/></li>
+			 <li><img src="images/s_6.jpg" width="200" height="125"dataSrc="images/6.jpg"/></li> 
+			 <li><img src="images/s_7.jpg" width="200" height="125"dataSrc="images/7.jpg"/></li>
+		     <li><img src="images/s_8.jpg" width="200" height="125"dataSrc="images/8.jpg"/></li>
+			 <li><img src="images/s_9.jpg" width="200" height="125"dataSrc="images/9.jpg"/></li>
+			 <li><img src="images/s_10.jpg" width="200"height="125"dataSrc="images/10.jpg"/></li>
+			 <li><img src="images/s_11.jpg" width="200"height="125"dataSrc="images/11.jpg"/></li>
+			 <li><img src="images/s_12.jpg" width="200"height="125"dataSrc="images/12.jpg"/></li>
+			 <li><img src="images/s_13.jpg" width="200"height="125"dataSrc="images/13.jpg"/></li>
+			 <li><img src="images/s_14.jpg" width="200"height="125"dataSrc="images/14.jpg"/></li>
+			 <li><img src="images/s_15.jpg" width="200"height="125"dataSrc="images/15.jpg"/></li>  
+		  </ul>	 
+	  </div>   
+<!-----------------------------桌面系统---------------------------------->  
+                             											 
+	 <!-----------------------音乐播放器----------------------------------------->
+	 <div id="music"style=" top:100px;left:300px;">
+	     <div id="m_left">
+		      <div class="l_title">爱恨之间</div>   
+			  <img src="images/吴奇隆.png" width="360px" height="290" class="pic"/>
+			  <div class="l_button" >
+			      <div class="b_bon">
+				      <span class="prev"></span>
+					  <span class="play"></span>
+				      <span class="next"></span>
+			      </div>
+				
+				<div class="l_box">
+				<!--进度条开始-->
+                <div class="l_bon">
+				   <div class="l_bon1"></div>
+				 </div>
+				 <!--进度条结束-->
+				 
+				 <!--时间开始-->
+			  <span class="l_time"></span>
+			  <!--时间结束-->
+			    </div>
+			  </div>
+			 
+		   </div>
+		 <div class="m_right">
+	         <div class="r_title">音乐播放器
+			 <img src="images/close.png" width="28" height="28" class="t_right" />
+			 <img src="images/break.jpg"width="28" height="28" class="t_left"/>
+			     
+			 </div>
+			 <div class="r_music">
+			     <ul id="m_sound">
+                     <li class="active"><a dataSrc="Mp3/1.mp3" dataSrc1="爱恨之间"dataSrc2="images/吴奇隆.png"dataSrc3="images/吴奇隆01.png" dataSrc4="images/吴奇隆02.png"  >爱恨之间</a></li>
+	                 <li><a dataSrc="Mp3/2.mp3" dataSrc1="千古" dataSrc2="images/阿兰.png"dataSrc3="images/阿兰01.png" dataSrc4="images/阿兰02.png">千古</a></li>
+					 <li><a dataSrc="Mp3/3.mp3" dataSrc1="是夜"dataSrc2="images/毛方圆.png"dataSrc3="images/毛方圆01.png" dataSrc4="images/毛方圆02.png">是夜</a> </li>
+					 <li><a dataSrc="Mp3/4.mp3" dataSrc1="心之火"dataSrc2="images/彭佳慧.png"dataSrc3="images/彭佳慧01.png" dataSrc4="images/彭佳慧02.png">心之火</a> </li>
+					 <li><a dataSrc="Mp3/5.mp3" dataSrc1="地老天荒"dataSrc2="images/张丹峰.png"dataSrc3="images/张丹峰01.png" dataSrc4="images/张丹峰02.png">地老天荒</a> </li>
+					 <li><a dataSrc="Mp3/6.mp3" dataSrc1="年轮"dataSrc2="images/张碧晨.png"dataSrc3="images/张碧晨01.png" dataSrc4="images/张碧晨02.png">年轮</a> </li>
+					 <li><a dataSrc="Mp3/7.mp3" dataSrc1="转弯"dataSrc2="images/吴奇隆.png"dataSrc3="images/吴奇隆01.png" dataSrc4="images/吴奇隆02.png">转弯</a></li>
+				     <li><a dataSrc="Mp3/8.mp3" dataSrc1="无边的眷恋"dataSrc2="images/金沙.png"dataSrc3="images/金沙01.png" dataSrc4="images/金沙02.png">无边的眷恋</a></li>
+					 <li><a dataSrc="Mp3/9.mp3" dataSrc1="一见钟情" dataSrc2="images/李晟.png"dataSrc3="images/李晟01.png" dataSrc4="images/李晟02.png">一见钟情</a></li>
+					 <li><a dataSrc="Mp3/10.mp3"dataSrc1="不可说"dataSrc2="images/赵丽颖.png"dataSrc3="images/赵丽颖01.png" dataSrc4="images/赵丽颖02.png">不可说</a></li>
+					 <li><a dataSrc="Mp3/11.mp3"dataSrc1="军中绿花"dataSrc2="images/小曾.png"dataSrc3="images/小曾01.png" dataSrc4="images/小曾02.png">军中绿花</a></li>
+					 <li><a dataSrc="Mp3/12.mp3"dataSrc1="梦千年之恋"dataSrc2="images/金沙.png"dataSrc3="images/金沙01.png" dataSrc4="images/金沙02.png">梦千年之恋</a></li>
+					 <li><a dataSrc="Mp3/13.mp3"dataSrc1="我们的天空"dataSrc2="images/黄艺明.png"dataSrc3="images/黄艺明01.png" dataSrc4="images/黄艺明02.png">我们的天空</a></li>
+					 <li><a dataSrc="Mp3/14.mp3"dataSrc1="江湖谣"dataSrc2="images/何晟铭.png"dataSrc3="images/何晟铭01.png" dataSrc4="images/何晟铭02.png">江湖谣</a></li>
+					 <li><a dataSrc="Mp3/15.mp3"dataSrc1="平凡之路"dataSrc2="images/朴树.png"dataSrc3="images/朴树01.png" dataSrc4="images/朴树02.png">平凡之路</a></li>
+					 <li><a dataSrc="Mp3/16.mp3"dataSrc1="倾世"dataSrc2="images/霍建华.png"dataSrc3="images/霍建华01.png" dataSrc4="images/霍建华02.png">倾世</a></li>
+					 <li><a  dataSrc="Mp3/17.mp3"dataSrc1="我们的天空(dj)"dataSrc2="images/黄艺明.png"dataSrc3="images/黄艺明01.png" dataSrc4="images/黄艺明02.png">我们的天空(dj)</a></li>
+				 </ul>
+			 </div>
+		 </div>
+	
+	</div>  
+	<!-----------------------------音乐播放器---------------------------------->
+
+
+                     
+    <!---------------------------------计算器------------------------------------>
+ <div id="cac" style="top:80px;left:250px" >
+    <div id="c_title">声报计算器<img src="images/close.png" width="27" height="27" /></div>
+	   <div class="c_show">
+	      <input type="text" class="c_txt" value="" onfocus="this.blur()" id="result"/>
+	    </div>
+      <div class="c_key">
+		     <ul>
+			    <li onclick="command(7)">7</li>
+				<li onclick="command(8)">8</li>
+				<li onclick="command(9)">9</li>
+				<li class="c_tool" onclick="remove1('r')">←</li>
+				<li class="c_tool" onclick="clearzero('j')">C</li>
+				<li onclick="command(4)">4</li>
+				<li onclick="command(5)">5</li>
+				<li onclick="command(6)">6</li>
+				<li class="c_tool" onclick="tools('*','g')">×</li>
+				<li class="c_tool" onclick="tools('/','g')">÷</li>
+				<li onclick="command(1)">1</li>
+				<li onclick="command(2)">2</li>
+				<li onclick="command(3)">3</li>
+				<li class="c_tool" onclick="tools('+','g')">+</li>
+				<li class="c_tool" onclick="tools('-','g')">-</li>
+				<li onclick="command(0)">0</li>
+				<li onclick="add(00)">00</li>
+				<li onclick="dot('g')">.</li>
+				<li class="c_tool" onclick="tools('%','g')">%</li>
+				<li class ="c_tool1" onclick="equal('j')">＝</li>
+				<div class="clear"></div>
+			  </ul>
+		   </div>
+		 <div class ="c_welcome">欢迎使用计算器</div>
+    </div>
+	 <div id="audioBox"></div>
+         <!-------------------------------计算器--------------------------------->
+
+        <!--------------------------表盘闹钟-------------------------------------->
+  <div class="timebox">
+	     <div class="t_box">
+		 <ul id="kedu"></ul>          
+		 <!--圆心，时分秒-->
+		     <div class="radius"></div> 
+			 <div id="hour"></div>
+			 <div id="min"></div>
+			 <div id="sec"></div>
+		 </div>
+	 </div>
+           <!--------------------------表盘闹钟-------------------------------------->
+
+          <!---------------------------百度地图--------------------------------------->
+		    <!--百度地图容器-->
+  <div id="map" 
+  style="width:700px;height:400px;border:1px solid gray; position:absolute;top:100px;left:300px;display:none;">   
+        要查询的地址：<input id="text_" type="text" value="惠州市" style="margin-right:10px;"/>
+        查询结果(经纬度)：<input id="result_" type="text" />
+		<img src="images/close.png" width="27" height="27" style="position:absolute;top:0px;right:0"><br>
+        <input type="button" value="查询" onclick="searchByStationName();"/> 
+        <div id="container" style=" width: auto; height:400px;overflow:hidden; ">
+       </div>
+    </div>
+
+   <!---------------------------百度地图--------------------------------------->
+   <!---------------------------笔记本------------------------------------------>
+    <div id="read" style="top:150px;left:400px;">
+	
+	   <p id="r_title">记事本<img src="images/close.png" width="27" height="27"/></p>
+          <textarea id="note" placeholder="请输入内容" ></textarea>
+	         <button type="button" class="t_bottom" onclick="mouseClick()"style="width:100px">保存</button>
+	 </div>  
+    <!---------------------------笔记本------------------------------------------>
+
+
+	<!----------------------------图片---------------------------------------------->
+	<div class="pict" style="top:40px;left:200px">
+      <div class="p_title"style="top:0px;left:0px;"> 
+	  <img src="images/图片.jpg" alt="" width="40" height="30" style="position:absolute;top:5px;left:6px;"/>
+	  图库
+	  <img src="images/close.png" alt="" width="27" height="27"style="position:absolute;top:5px;right:0px;" class="t_close"/>
+	  </div>
+       <img src="images/pic_1.jpg" alt="" width="200" height="200" class="picture"/>
+	   <img src="images/pic_2.jpg" alt="" width="200" height="200" class="picture"/>
+	   <img src="images/pic_3.jpg" alt="" width="200" height="200" class="picture"/>
+	   <img src="images/pic_4.jpg" alt="" width="200" height="200" class="picture"/>
+	   <img src="images/pic_5.jpg" alt="" width="200" height="200" class="picture"/>
+	   <img src="images/pic_6.jpg" alt="" width="200" height="200" class="picture"/>
+	   <img src="images/pic_7.jpg" alt="" width="200" height="200" class="picture"/>
+	   <img src="images/pic_8.jpg" alt="" width="200" height="200" class="picture"/>  
+   </div>
+   <!--阴影部分-->
+   <div class="shadow"></div>
+    <!--图片放大部分-->
+   <div class="show">
+       <img src="images/dirl.png" alt="" width="18" height="35" class="s_left"/> 
+	   <img src="images/dirr.png" alt="" width="18" height="35" class="s_right"/>
+       <img src="images/pic_1.jpg" alt="" width="500" height="400" class="s_pic"/>
+   
+   </div>
+   <!----------------------------图片---------------------------------------------->
+   <!----------------------------旋转体--------------------------------------------->
+   <div id="transform">
+      <ul>
+	     <li id="t_rotate1">
+		   <div></div>        <!--上-->
+		   <div></div>        <!--下-->
+		   <div></div>        <!--前-->
+		   <div></div>        <!--后-->
+		   <div></div>        <!--左-->
+		   <div></div>        <!--右-->
+		 
+		 </li>	
+		 <li id="t_rotate2">
+		    <div></div>        <!--上-->
+		   <div></div>        <!--下-->
+		   <div></div>        <!--前-->
+		   <div></div>        <!--后-->
+		   <div></div>        <!--左-->
+		   <div></div>        <!--右-->
+		 </li>
+		 <li id="t_rotate3">
+		   <div></div>        <!--上-->
+		   <div></div>        <!--下-->
+		   <div></div>        <!--前-->
+		   <div></div>        <!--后-->
+		   <div></div>        <!--左-->
+		   <div></div>        <!--右-->
+		 </li>
+		 <li id="t_rotate4" style="z-index:-1">
+		  <div></div>        <!--上-->
+		   <div></div>        <!--下-->
+		   <div></div>        <!--前-->
+		   <div></div>        <!--后-->
+		   <div></div>        <!--左-->
+		   <div></div>        <!--右-->
+		 </li>
+	  </ul>
+
+  <!--按钮开始-->
+   <div id="t_bottom">
+       <ol>
+	      <li id="b_one"></li>
+		  <li id="b_two"></li>
+		  <li id="b_three"></li>
+		  <li id="b_four"></li>
+	   
+	   </ol>
+   
+ </div>
+  <!--按钮结束-->
+  </div> 
+ 
+ 
+<!----------------------------旋转体---------------------------------------------> <!-----------------------------------------搜索--------------------------------------->
+<div id="select" style="top:20px;left:200px;">
+                                   <!--点击关闭改成空连接-->
+	      <img src="images/close.png" alt="关闭" width="27"height="27" class="sel_close"/>
+       
+	      <div id="se_title"></div>
+	      <div class="se_bottom">
+		      <iframe src="" name="show" ></iframe>
+		  
+		  </div>
+	 </div>
+<!------------------------------------------搜索--------------------------------------->
+<!-------------------------------------------腾讯视频--------------------------------->
+ <div id="tengxun_video" style="top:50px;left:260px;">
+        <a href="#" target="show_video" ><!--点击关闭改成空连接-->
+	      <img src="images/close.png" alt="关闭" width="27"height="27" class="tengxun_close"/>
+        </a>
+	      <a class="big"></a>
+	      <div id="tengxun_title"></div>
+	      <div class="tenngxun_bottom">
+		      <iframe src="" name="show_video" ></iframe>
+		  
+		  </div>
+	 </div>
+<!-------------------------------------------腾讯视频--------------------------------->
+<!--------------------------------------------WEBQQ------------------------------------>
+  <div id="webqq" style="top:20px;left:200px;">
+	  
+	      <img src="images/close.png" alt="关闭" width="27"height="27" class="webqq_close"/>
+  
+	   <a class="big"></a>
+	      <div id="webqq_title"></div>
+	         <div class="webqq_bottom">
+		      <iframe src="" name="show_WEBQQ"></iframe>
+		  
+		  </div>
+	 </div>
+<!--------------------------------------------WEBQQ------------------------------------>
+
+<!--------------------------------------------win8--------------------------------------->
+<!--底部开始-->
+  <div id="win8">
+     <li style="list-style-type:none">
+      <img src="images/win8.gif"alt="win8"width="40"height="40" id="win8_icon"/>
+     </li>
+  
+  </div>
+ <!--底部结束-->
+ <!--触摸按钮，显示程序开始-->
+ <div id="win8_page">
+       <ul>
+	     <li> 
+		    <a href="http://www.w3school.com.cn/" target="show_W3Cschool">
+		     <img src="images/W3C.gif"alt=""width="70"height="40" class="win8_oneIcon" title="W3C"/>
+	      </a>
+		  <span>W3Cschool</span>
+	   </li>
+		 <li> 
+		    <a href="https://www.taobao.com/"  target="show_taobao">
+		      <img src="images/taobao.png" alt="" width="70" height="40" class="win8_twoIcon" title="淘宝"/>
+			  </a>
+		   <span>淘宝</span>
+		   </li>
+		 <li> 
+		   <a href="http://www.tuniu.com/" target="show_tuniu">
+		      <img src="images/tuniu.gif"alt=""width="70"height="40" class="win8_threeIcon"title="途牛"/>
+		    </a>
+			<span>途牛网</span>
+		</li>
+	  </ul>
+ 
+ </div>
+ <!--触摸按钮，显示程序结束-->
+<!--------------------------------------------win8--------------------------------------->
+<!--------------------------------------------W3Cschool----------------------------------->
+  <div id="W3Cschool" style="top:20px;left:200px;">
+       
+	      <img src="images/close.png" alt="关闭" width="27"height="27" class="w3c_close"/>
+     
+		  <a class="big"></a>
+	      <div id="w3c_title"></div>
+	      <div class="w3c_bottom">
+		      <iframe src="" name="show_W3Cschool"></iframe>
+		  
+		  </div>
+	 </div>
+<!--------------------------------------------W3Cschool----------------------------------->
+<!--------------------------------------------淘宝---------------------------------------------->
+<div id="taobao" style="top:20px;left:200px;">
+         
+	      <img src="images/close.png" alt="关闭" width="27"height="27" class="taobao_close"/>
+        
+		  <a class="big"></a>
+	      <div id="taobao_title"></div>
+	      <div class="taobao_bottom">
+		      <iframe src="" name="show_taobao"></iframe>
+		  
+		  </div>
+	 </div>
+<!--------------------------------------------淘宝---------------------------------------------->
+<!-------------------------------------途牛网---------------------------------------------------->
+ <div id="tuniu" style="top:20px;left:200px;">
+	   
+	      <img src="images/close.png" alt="关闭" width="27"height="27" class="tuniu_close"/>
+     
+	   <a class="big"></a>
+	      <div id="tuniu_title"></div>
+	         <div class="tuniu_bottom">
+		      <iframe src="" name="show_tuniu"></iframe>
+		  
+		  </div>
+	 </div>
+<!-------------------------------------途牛网---------------------------------------------------->
+
+   <!----------------------------说说---------------------------------------------->
+           <!--说说发表开始-->
+   <div id="containerSpeak">
+      <img src="images/close.png" alt=""width="27"height="27" style="float:right;cursor:pointer;" class="c_close"/>
+      <h3 id="c_title">说说发表</h3>
+	  <div class="c_tarea" contenteditable="true"></div>
+	  <a href="#" class="c_gif">
+	  <img src="images/1.gif" alt="" width="24" height="24"/>     
+	  </a>
+	  <a href="#" class="c_bottom">发表</a>
+	  <div class="c_expression">
+	      <ul>
+		     <li><img src="images/1.gif"alt=""width="24"height="24" title="惊讶"></li>
+			 <li><img src="images/2.gif"alt=""width="24"height="24" title="惊讶"></li>
+			 <li><img src="images/3.gif"alt=""width="24"height="24" title="惊讶"></li>
+			 <li><img src="images/4.gif"alt=""width="24"height="24" title="惊讶"></li>
+			 <li><img src="images/5.gif"alt=""width="24"height="24" title="惊讶"></li>
+			 <li><img src="images/6.gif"alt=""width="24"height="24" title="惊讶"></li>
+			 <li><img src="images/7.gif"alt=""width="24"height="24" title="惊讶"></li>
+			 <li><img src="images/8.gif"alt=""width="24"height="24" title="惊讶"></li>
+			 <li><img src="images/9.gif"alt=""width="24"height="24" title="惊讶"></li>
+			 <li><img src="images/10.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/11.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/12.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/13.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/14.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/15.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/16.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/17.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/18.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/19.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/20.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/21.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/22.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/23.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/24.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/25.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/26.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/27.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/28.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/29.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/30.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/31.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/32.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/33.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/34.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/35.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/36.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/37.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/38.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/39.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/40.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/41.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/42.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/43.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/44.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/45.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/46.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/47.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/48.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/49.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/50.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/51.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/52.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/53.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/54.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/55.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/56.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/57.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/58.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/59.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/60.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/61.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/62.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/63.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/64.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/65.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/66.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/67.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/68.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/69.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/70.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/71.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/72.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/73.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/74.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/75.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/76.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/77.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/78.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/79.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/80.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/81.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/82.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/83.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/84.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/85.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/86.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/87.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/88.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/89.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/90.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/91.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/92.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/93.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/94.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/95.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/96.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/97.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/98.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/99.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/100.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/101.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/102.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/103.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/104.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/105.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/106.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/107.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/108.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/109.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/110.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/111.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/112.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/113.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/114.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/115.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/116.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/117.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/118.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/119.gif"alt=""width="24"height="24"title="惊讶"></li>  
+			 <li><img src="images/120.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/121.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/122.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/123.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/124.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/125.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/126.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/127.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/128.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/129.gif"alt=""width="24"height="24"title="惊讶"></li>
+			 <li><img src="images/130.gif"alt=""width="24"height="24"title="惊讶"></li>			
+		  </ul>
+	  
+	  </div>
+   </div>
+    <!--说说发表结束-->
+	<!--得到说说内容开始-->
+	<div id="speak">
+	   <div class="s_content"></div>
+	</div>
+	<!--得到说说内容结束-->
+ <!----------------------------说说---------------------------------------------->
+ 
+	  <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	                    <!--引用百度地图的API接口-->
+  <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>  
+      <script type="text/javascript">
+	    var document_index=0; //设置叠加关系
+ 	/*-----------------------------桌面系统-------------------------------*/
+  
+       //禁止浏览器自带的右键菜单
+         document.oncontextmenu=function(){
+			           return false;
+			   
+			   };
+        $(document).mousedown(function(e){
+			           var key=e.which;//右键盘3 鼠标滑动滚轮2 左键1
+					   if(key==3){
+					      var x=e.clientX;
+						  var y=e.clientY;
+						  $(".test").html("X= " +x+  " Y= "+y);
+                          $(".Menu").css({"left":x,"top":y}).show();
+						  document_index++;
+						  $(".Menu").css("zIndex",document_index);
+					   }
+			   });
+			   //点击右键，不用时会消失
+	        $(document).click(function(){
+				   document_index++;
+		           $(".Menu").hide();//隐藏	
+                   $(".Menu").css("zIndex",document_index);
+		
+		});
+		//当鼠标滑动到菜单时，背景变色
+		$(".Menu ul li").mouseover(function(){
+		  $(this).addClass("active").siblings("li").removeClass("active")						
+		});
+		    //点击菜单时,
+			$(".Menu ul li").click(function(){
+			   var _index=$(this).index();
+			   if(_index==5){
+			   document_index++;
+			   $("#back").show(500);
+               $("#back").css("zIndex",document_index);
+			   
+			   }			   
+						
+			})
+			//点击关闭按钮 
+			$("#back #b_title img").click(function(){
+				document_index--;
+			   $("#back").hide(300);
+			   $("#back").css("zIndex",document_index);
+			})
+			//点击图片库
+            $("#back").click(function(){
+			      document_index++;
+				  $(this).css("zIndex",document_index);
+			
+			})
+			//点击图片，实现换肤
+            $("#back ul li").click(function(){
+			var bigSrc= $(this).find("img").attr("dataSrc");//找到大图地址
+			$("body").css("background","url("+bigSrc+")");
+			})
+			//实现跟随鼠标移动
+            var x;
+	        var y;
+	  var  yd=document.getElementById("back") 
+	  document.getElementById("b_title").onmousedown=function(event){
+		      var key=event.which;
+			  if(key==1){
+		      x=event.clientX-parseInt(yd.style.left);
+			  y=event.clientY-parseInt(yd.style.top);
+			 
+	          document.onmousemove=mousemove;     //跟着鼠标移动
+			  document.onmouseup=mouseup;       //鼠标弹起
+	  
+	  }
+	  }
+	  function mousemove(event){
+	        yd.style.left=(event.clientX-x)+"px";
+		    yd.style.top=(event.clientY-y)+"px";	  
+		  	  
+	     }
+      function mouseup(){
+	         
+	   document.onmousemove=null;       //停止移动
+	   
+	   }	  
+		
+		/*--------------------------------桌面系统----------------------------------*/
+   /*------------------------------------音乐播放器------------------------------------*/
+        var musicSrc="Mp3/1.mp3";    //音乐地址
+		var audio=creatMusic(musicSrc);
+		var kf=1;
+		var _index=0;//当前第一首歌
+		$(".b_bon span.prev").css("cursor","pointer");/*创建上一曲手势图标*/
+        $(".b_bon span.play").css("cursor","pointer");/*创建播放手势图标*/
+		$(".b_bon span.next").css("cursor","pointer");/*创建下一曲手势图标*/
+		//点击播放
+        $(".b_bon span.play").click(function(){
+			if(kf==1){
+			$(this).css("background-position","-79px 0");
+			       audio.play();
+				   kf=2;
+			}else{
+			   $(this).css("background-position","-105px 0");
+			       audio.pause();
+				   kf=1;
+			
+			}
+				
+				 //实现标题跟着联动
+	
+	   var nameDom=$(".m_right ul li").eq(_index).find("a").attr("dataSrc1");
+	   $("#music #m_left .l_title").html(nameDom);
+		});
+		//创建音乐
+		function creatMusic(musicSrc){
+		    var createMp3=$("<audio src="+musicSrc+"></audio>").get(0);
+		    return createMp3;
+		}
+		var music_length=document.getElementById("m_sound").getElementsByTagName("li").length //定义li数组的长度
+		
+		//点击下一首通过序列号产生关系（0，1，2...）
+		$(".b_bon span.next").click(function(){
+                   if(_index>music_length-1){
+					  _index=0
+		              MusicPlay();
+					  
+				   }else{
+				       _index++;
+					   MusicPlay();				  			   
+				   }	
+	
+				   	 //实现标题跟着联动
+	
+	   var nameDom=$(".m_right ul li").eq(_index).find("a").attr("dataSrc1");
+	   $("#music #m_left .l_title").html(nameDom);
+	               //实现图片跟着联动
+				   /*var picture_index=-1;       //定义数组下标
+				   function auto_Picture(){
+				      var photoDom=$(".m_right ul li").eq(_index).find("a").attr("dataSrc2");
+					  var photoDom01=$(".m_right ul li").eq(_index).find("a").attr("dataSrc3");
+					  var photoDom02=$(".m_right ul li").eq(_index).find("a").attr("dataSrc4");
+					  var picture=[photoDom,photoDom01,photoDom02];
+                      if(picture_index<picture.length){
+						  picture_index++;
+					      $("#music #m_left").find("img.pic").attr("src",picture[picture_index]);
+					  
+					  }else{
+					       picture_index=-1;
+					  
+					  }
+	   
+				   
+				   }
+				 
+				    window.setInterval(auto_Picture,4000);    //周期性执行函数
+					*/
+                   var photoDom=$(".m_right ul li").eq(_index).find("a").attr("dataSrc2");
+				   $("#music #m_left").find("img.pic").attr("src",photoDom);
+	   
+		
+		});
+		//点击上一首通过序列号产生关系（0，1，2...）
+		$(".b_bon span.prev").click(function(){
+		     if(_index<0){
+			     _index=music_length-1;
+			     MusicPlay();	
+			 }else{
+			     _index--;
+				  MusicPlay();	
+			 
+			 }
+			
+			
+				 //实现标题跟着联动
+	
+	   var nameDom=$(".m_right ul li").eq(_index).find("a").attr("dataSrc1");
+	   $("#music #m_left .l_title").html(nameDom);
+	              //实现图片跟着联动
+				  /* var picture_index=-1;       //定义数组下标
+				   function auto_Picture(){
+				      var photoDom=$(".m_right ul li").eq(_index).find("a").attr("dataSrc2");
+					  var photoDom01=$(".m_right ul li").eq(_index).find("a").attr("dataSrc3");
+					  var photoDom02=$(".m_right ul li").eq(_index).find("a").attr("dataSrc4");
+					  var picture=[photoDom,photoDom01,photoDom02];
+                      if(picture_index<picture.length){
+						  picture_index++;
+					      $("#music #m_left").find("img.pic").attr("src",picture[picture_index]);
+					  
+					  }else{
+					       picture_index=-1;
+					  
+					  }
+	   
+				   
+				   }
+				 
+				    window.setInterval(auto_Picture,4000);    //周期性执行函数
+					*/
+					 var photoDom=$(".m_right ul li").eq(_index).find("a").attr("dataSrc2");
+				    $("#music #m_left").find("img.pic").attr("src",photoDom);
+		})
+	  
+		//点击右边实现播放
+		$(".m_right ul li a").css("cursor","pointer");
+		$(".m_right ul li").click(function(){
+			_index=$(this).index();   //直接赋予序列号
+			if(kf==1){
+		     MusicPlay();
+			 kf=2;
+			}else{
+            $(".m_right ul li").addClass("active").siblings("li").removeClass("active");
+			audio.pause();
+			 kf=1;
+			}	
+				 //实现标题跟着联动
+	
+	   var nameDom=$(".m_right ul li").eq(_index).find("a").attr("dataSrc1");
+	   $("#music #m_left .l_title").html(nameDom);
+	     //实现图片跟着联动
+				   var picture_index=-1;       //定义数组下标
+				   function auto_Picture(){
+				      var photoDom=$(".m_right ul li").eq(_index).find("a").attr("dataSrc2");
+					  var photoDom01=$(".m_right ul li").eq(_index).find("a").attr("dataSrc3");
+					  var photoDom02=$(".m_right ul li").eq(_index).find("a").attr("dataSrc4");
+					  var picture=[photoDom,photoDom01,photoDom02];
+                      if(picture_index<picture.length){
+						  picture_index++;
+					      $("#music #m_left").find("img.pic").attr("src",picture[picture_index]);
+					  
+					  }else{
+					       picture_index=-1;
+					  
+					  }
+	   
+				   
+				   }
+				 
+				    window.setInterval(auto_Picture,4000);    //周期性执行函数
+		
+		})
+		//定义一个函数，减少代码重复
+		function MusicPlay(){
+			//联动歌曲
+		  $(".m_right ul li").eq(_index).addClass("active").siblings("li").removeClass("active");
+		  //找到地址
+		  musicSrc=
+		  $(".m_right ul li").eq(_index).find("a").attr("dataSrc");
+		  audio.src=musicSrc;
+		  audio.play();
+		}
+  
+		//关闭播放器 
+		$("#music .m_right .r_title img").css("cursor","pointer");
+		$("#music .m_right .r_title img.t_right").click(function(){
+			document_index--;
+	       audio.pause();          //暂停
+		   audio.load();          //重新加载
+          $("#m_left .l_button .l_box .l_bon .l_bon1").css("width","0"); //进度条恢复0
+		   $("#music").fadeOut(1000);
+		    $("#music").css("zIndex",document_index);
+		   
+		 
+		})
+		//最小化
+		$("#music .m_right .r_title img.t_left").click(function(){
+			document_index--;
+		    $("#music").hide(1000);
+			$("#music").css("zIndex",document_index);
+		
+		
+		})
+		//添加音乐播放器 
+			
+			$(".Menu ul li").click(function(){
+				         //层叠关系
+			   var _index=$(this).index();
+			   if(_index==0){
+				  document_index++; 
+			     $("#music").show(500).css({"top":"100px","left":"300px","zIndex":document_index});
+				}
+				     
+			}) 
+			//点击播放器 层叠++
+			$("#music").click(function(){
+					        document_index++;
+				            $("#music").css("zIndex",document_index);
+							
+				 
+				 }) 
+			
+			
+				//实现跟随鼠标移动
+            var x2;
+	        var y2;
+	  var  yd2=document.getElementById("music"); 
+	  document.getElementById("m_left").onmousedown=function(event){
+		      var key2=event.which;
+			  if(key2==1){
+		      x2=event.clientX-parseInt(yd2.style.left);
+			  y2=event.clientY-parseInt(yd2.style.top);
+			 
+	          document.onmousemove=mousemove2;     //跟着鼠标移动
+			  document.onmouseup=mouseup2;       //鼠标弹起
+	  
+	  }
+	  }
+	  function mousemove2(event){
+	        yd2.style.left=(event.clientX-x2)+"px";
+		    yd2.style.top=(event.clientY-y2)+"px";	  
+		  
+		  
+	     }
+      function mouseup2(){
+	         
+	   document.onmousemove=null;       //停止移动
+	   
+	   } 
+	   
+	   var timeDom=$("#m_left .l_button .l_box span.l_time");
+	     timeDom.css("color","gray");
+	   //拿到总时间
+	     audio.oncanplaythrough=function(){
+         timeDom.html(getTime(this.duration));
+   
+   }
+     //拿到播放时间
+      
+       audio.ontimeupdate=function(){
+	       timeDom.html(getTime(this.currentTime)); 
+		   //进度条
+           var timemove=$("#m_left .l_button .l_box .l_bon .l_bon1");
+           timemove.css("width",this.currentTime/this.duration*100+"%");
+		   
+	   
+	   }
+	   //鼠标移动得到剩余时间
+      timeDom.click(function(){
+		   
+		 
+	  })
+	  
+      //格式化时间
+	   //得到时间
+	 function getTime(time){
+	 var m=parseInt(time/60);
+	 var s=parseInt(time%60);
+		 //补0
+		 m= m<10?"0"+m:m;      
+		 s= s<10?"0"+s:s;
+		 return m+":"+s;
+	 
+	 }
+	
+       /*------------------------------------音乐播放器------------------------------------*/
+          /*------------------------------------计算器------------------------------------*/
+		 var resultDom=document.getElementById("result");
+		 //操作符锁
+         var operate=true;
+         var xop=true;
+         //点击计算器键盘
+		 function command(num){
+		 var str=resultDom.value;
+		 //如果是0用“”填充
+		 str=(str=="0"?"0":str);
+         //拼接点击的数字    
+         str+=num;
+		 //赋给文本框
+		 resultDom.value=str;
+         operate=true;    
+        
+		 //播放音效
+		 play(num);
+		 }
+		 //点击00键盘
+		 function add(num){
+		 var str=resultDom.value;
+         str=(str=="0"?"":str);
+		 str=str+"00";
+		 resultDom.value=str;
+		 operate=true;
+		 play(num);
+		 
+		 }
+		 //点击操作符
+		 function tools(op,m){
+		 if(operate){
+		 var num =resultDom.value;
+		 num=(num=="0"?"0":num);
+		 //拼接操作符
+		 resultDom.value=num+op;
+		 operate= false;
+		 xop = true;
+		
+		
+	     }  //播放音效
+		    play(m);
+		 
+		    }
+          //点击小数点
+		 
+		  function dot(m){
+		    if(xop){
+			    var num =resultDom.value;
+				num=num+".";
+				resultDom.value=num;
+				xop=false;
+			
+			
+			}
+			 play(m)
+		  
+		  
+		  }
+		  //计算等于
+		   function equal(m){
+		   play(m);
+		   var result =resultDom.value;
+		   //eval()函数自动运算
+		   var r= eval(result);
+		   resultDom.value=r;
+		   operate=true;
+		   var r=resultDom.value+"";
+		   xop=r.indexOf(".")==-1?true:false;
+		 
+		   
+		 }
+		 //清空
+		 function clearzero(m){
+		    resultDom.value="";
+			operate=true;
+            xop=true;
+			play(m);
+		 
+		 }
+		 //移除
+		 function remove1(m){    //不能使用保留字remove
+		 var num=resultDom.value; 
+		 var result=0;
+		 if(num.length>=1){
+		    result=num.substring(num.length-1,0);
+		 
+		 }else{
+		    result=num+"";
+		 }
+		    resultDom.value=result;
+		    operate=true;
+            xop=true;
+		    play(m);
+		 
+		 }
+		 //播放键盘声音
+		 function play(num){
+		 var boxDom=document.getElementById("audioBox");
+		 boxDom.innerHTML="<embed src='wav/"+num+".wav' width='0' height='0'></embed>";
+		 
+		 }
+		 //添加计算器
+		$(".Menu ul li").click(function(){  
+			   
+			   var _index=$(this).index();
+			   if(_index==1){ 
+				 document_index++;
+			     $("#cac").show(500); $("#cac").css("zIndex",document_index);
+				 
+				 
+				 }			
+			
+			})
+	     	  //点击计算器层叠++
+		   $("#cac").click(function(){
+		           document_index++
+		           $("#cac").css("zIndex",document_index);
+		   
+		      })
+			   
+		 //关闭计算器
+		 $("#cac #c_title img").css("cursor","pointer");
+		     $("#cac #c_title img").click(function(){
+				    document_index--;                 //层叠
+		            $("#cac").hide(300);
+					$("#cac").css("zIndex",document_index);
+		 })
+		 	//实现跟随鼠标移动
+            var x1;
+	        var y1;
+	  var  yd1=document.getElementById("cac") 
+	  document.getElementById("c_title").onmousedown=function(event){
+		      var key1=event.which;
+			  if(key1==1){
+		      x1=event.clientX-parseInt(yd1.style.left);
+			  y1=event.clientY-parseInt(yd1.style.top);
+			 
+	          document.onmousemove=mousemove1;     //跟着鼠标移动
+			  document.onmouseup=mouseup1;       //鼠标弹起
+	  
+	  }
+	  }
+	  function mousemove1(event){
+	        yd1.style.left=(event.clientX-x1)+"px";
+		    yd1.style.top=(event.clientY-y1)+"px";	  
+		  
+		  
+	     }
+      function mouseup1(){
+	         
+	   document.onmousemove=null;       //停止移动
+	   
+	   }	  
+		     
+   /*--------------------------------------计算器--------------------------------*/
+   /*-------------------------------------笔记本----------------------------------*/
+               //点击菜单，显示笔记本
+	$(".Menu ul li").click(function(){
+		
+			   var _index=$(this).index();
+			   if(_index==2){
+			       document_index++;
+			   $("#read").fadeIn(500);
+			   $("#read").css("zIndex",document_index);
+			   }
+			})
+	//点击计算器 层叠++;
+	$("#read").click(function(){
+			document_index++;
+			 $("#read").css("zIndex",document_index);
+			
+			})
+			
+			$("#read #r_title img").css("cursor","pointer");
+   $("#read #r_title img").click(function(){
+              $("#read").fadeOut(300);
+             
+   
+   })
+                   var x3;
+				   var y3;
+				   var yd3=document.getElementById("read");
+	 document.getElementById("r_title").onmousedown=function(event){
+	                    var key3=event.which;
+						if(key3==1){
+						   x3=event.clientX-parseInt(yd3.style.left);
+						   y3=event.clientY-parseInt(yd3.style.top);
+						document.onmousemove=function (event){
+		        yd3.style.left=event.clientX-x3+"px";
+				yd3.style.top=event.clientY-y3+"px";
+		  
+		  }
+						document.onmouseup=function (){
+		                document.onmousemove=null;
+		  
+		  }
+						
+						}
+	    
+	 
+	                        }
+        
+         //点击按钮       
+ 		function mouseClick(){
+			var noteDom=document.getElementById("note");
+			var confirm=window.confirm("确定保存?");
+			
+			if(confirm==true){
+				if(noteDom.value!=""){           //说明有内容
+			   window.alert("恭喜,保存了");
+               yd3.style.display="none";
+			
+			
+			    }else{
+				      
+					window.alert("内容为空");
+				    yd3.style.display="none";
+				
+				}
+			}
+		    
+		}
+		
+  
+ /*-------------------------------------笔记----------------------------------*/
+   /*----------------------------表盘闹钟-------------------------------------- */
+    function keMove(){
+	     //得到刻度对象
+		 var keduDom=document.getElementById("kedu");
+		 var html="";
+	     for(var i=0;i<60;i++){
+		    html+="<li style='transform:rotate("+(6*i)+"deg)'></li>";
+		    
+		 }
+		 keduDom.innerHTML=html;
+       //秒针旋转 ，每6度的方式进行旋转
+	     var secDom=document.getElementById("sec");
+		 var minDom=document.getElementById("min");
+		 var hourDom=document.getElementById("hour");
+		 function drawDate(){
+		    var date=new Date();
+		    var sec=date.getSeconds();
+			var min=date.getMinutes()+sec/60;//偏移量
+			var hour=date.getHours()+min/60; //偏移量
+			//秒针的旋转
+		  	secDom.style.transform="rotate("+(sec*6)+"deg)";
+		    minDom.style.transform="rotate("+(min*6)+"deg)";
+			hourDom.style.transform="rotate("+(hour*30)+"deg)";
+		 };
+		
+            
+			//自动走动
+			window.setInterval(drawDate,1000);
+		 
+	  };
+	       keMove();     //调用方法
+       /*----------------------------表盘闹钟----------------------------------- */
+     /*-------------------------------------刷新页面----------------------------------*/
+	 $(".Menu ul li").click(function(){
+	     var _index=$(this).index();
+		 if(_index==3){
+		   window.location.reload(); //重新加载页面
+		 
+		 }
+	 
+	 
+	 
+	 })
+	   /*-------------------------------------刷新页面----------------------------------*/
+	   /*----------------------------百度地图------------------------------------*/ 
+	   //点击显示地图，
+     $(".Menu ul li").click(function(){
+	      var _index=$(this).index();
+		  if(_index==4){
+		     document_index++;
+		     $("#map").show(500);
+              $("#map").css("zIndex",document_index);
+		  }
+	 
+	  
+	   })
+	   $("#map").click(function(){
+	     document_index++;
+		 $("#map").css("zIndex",document_index);
+	   
+	   })
+      $("#map img").css("cursor","pointer");
+     $("#map img").click(function(){
+		 document_index--;
+	     $("#map").hide(300);
+		 $("#map").css("zIndex",document_index);
+	
+	
+	
+	})
+	var map = new BMap.Map("container");
+    map.centerAndZoom("宁波", 12);
+    map.enableScrollWheelZoom();    //启用滚轮放大缩小，默认禁用
+    map.enableContinuousZoom();    //启用地图惯性拖拽，默认禁用
+    map.addControl(new BMap.NavigationControl());  //添加默认缩放平移控件
+    map.addControl(new BMap.OverviewMapControl()); //添加默认缩略地图控件
+    map.addControl(new BMap.OverviewMapControl({ isOpen: true, anchor: BMAP_ANCHOR_BOTTOM_RIGHT }));   //右下角，打开
+    var localSearch = new BMap.LocalSearch(map);
+    localSearch.enableAutoViewport(); //允许自动调节窗体大小
+function searchByStationName() {
+    map.clearOverlays();//清空原来的标注
+    var keyword = document.getElementById("text_").value;
+    localSearch.setSearchCompleteCallback(function (searchResult) {
+        var poi = searchResult.getPoi(0);
+        document.getElementById("result_").value = poi.point.lng + "," + poi.point.lat;
+        map.centerAndZoom(poi.point, 13);
+        var marker = new BMap.Marker(new BMap.Point(poi.point.lng, poi.point.lat));  // 创建标注，为要查询的地方对应的经纬度
+        map.addOverlay(marker);
+        var content = document.getElementById("text_").value + "<br/><br/>经度：" + poi.point.lng + "<br/>纬度：" + poi.point.lat;
+        var infoWindow = new BMap.InfoWindow("<p style='font-size:14px;'>" + content + "</p>");
+        marker.addEventListener("click", function () { this.openInfoWindow(infoWindow); });
+        // marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+    });
+    localSearch.search(keyword);
+} 
+   
+	
+	/*----------------------------------百度地图---------------------------------------*/
+	/*----------------------------------注销系统---------------------------------------*/
+   $(".Menu ul li").click(function(){
+       var _index=$(this).index();
+       if(_index==6){
+		   //跳转
+		   
+	      window.location.href="denglu.html";   //跳转页面
+	   
+	   }
+   
+   })
+	/*----------------------------------注销系统---------------------------------------*/
+	/*----------------------------------图片-------------------------------------------*/
+     var picture_index;
+	   var picture_length=$(".pict img.picture").length;//拿到长度
+        $(".pict img.picture").click(function(){
+			document_index++;
+		     $(".shadow").show(100);$(".shadow").css("zIndex",document_index);
+		     $(".show").show(1000); $(".show").css("zIndex",document_index+1);
+			 var srcDom=$(this).attr("src");
+             $(".show img.s_pic").attr("src",srcDom);
+			picture_index=$(this).index();
+			
+		
+		})
+		
+		//点击上一张
+        $(".show img.s_left").css("cursor","pointer")
+		$(".show img.s_left").click(function(){
+			picture_index--;
+			if(picture_index<0){picture_index=picture_length-1}
+			 var picDom=$(".pict img.picture").eq(picture_index).attr("src");
+             $(".show img.s_pic").attr("src",picDom);
+			
+		
+		  
+		
+		})
+         //点击下一张
+		 $(".show img.s_right").css("cursor","pointer");
+		$(".show img.s_right").click(function(){
+		     
+			picture_index++;
+			
+		    if(picture_index>picture_length-1){picture_index=0;}
+			var picDom=$(".pict img.picture").eq(picture_index).attr("src");
+            $(".show img.s_pic").attr("src",picDom);
+			
+		  
+		
+		})
+		$(".shadow").click(function(){
+		      $(".shadow").hide();
+		      $(".show").hide();
+		 
+		})
+		//点击关闭按钮
+		$(".p_title .t_close").css("cursor","pointer");
+     $(".p_title .t_close").click(function(){
+		 document_index--;
+	    $(".pict").hide(500);
+        $(".pict").css("zIndex",document_index);
+	    
+	 })
+	 //点击图片框
+	 $(".pict").click(function(){
+	     document_index++;
+      $(".pict").css("zIndex",document_index);
+	 
+	 })
+	 //移动图片框
+	 var pictDom=$(".pict");
+	 var ptitleDom =$(".pict .p_title");
+	 ptitleDom.mousedown(function(e){
+		  e=e||window.event;
+	      var x=e.clientX-parseInt(pictDom.css("left"));
+		  var y=e.clientY-parseInt(pictDom.css("top"));
+		  document.onmousemove=function(ev){
+		        ev=ev||window.event;
+				pictDom.css({"left":ev.clientX-x,"top":ev.clientY-y});
+		  
+		  }
+		  document.onmouseup=function(){
+		  
+		       document.onmousemove=null;
+		  }
+	 
+	 })
+	/*---------------------------------图片-------------------------------------------*/
+	/*---------------------------------说说---------------------------------------------*/       
+         $(" #containerSpeak .c_gif").find("img").click(function(){//点击图标，显示表情
+			
+				 $(" #containerSpeak .c_expression").toggle(500);  //制动显示隐藏	
+				                  /*hide(),show()toggle()隐藏/显示 */
+			                    /*fadeIn()fadeOut()fadeToggle()fadeTo()淡入淡出 */ 
+								/*slideDown()slideUp()slideToggle()滑动*/
+		 
+		 })
+		 //选中表情，添加到文本框
+       $("#containerSpeak .c_expression").find("li").click(function(){
+	               var speakimg= $(this).find("img").clone();         //克隆表情
+				   $("#containerSpeak .c_tarea").append(speakimg);      //向输入框增加内容
+	  
+	   })
+	   //发表说说
+      $("#containerSpeak .c_bottom").click(function(){
+		  var textDom=$("#containerSpeak .c_tarea").text();
+		  if(textDom==""){                     //内容为空,不发布
+		       $("#containerSpeak .c_tarea").focus();
+			   return;
+		  
+		  }
+		  // $("#speak").prepend("<div class='s_content'>"+$("#container .c_tarea").html()+"</div>")
+		  document_index++;
+		  $("#speak").slideDown(2000);          //向下滑动
+		  $("#speak .s_content").append($("#containerSpeak .c_tarea").html());//往里面增加内容
+		  $("#speak").css("zIndex",document_index);
+		   /*
+		    append() - 在被选元素的结尾插入内容 
+            prepend() - 在被选元素的开头插入内容 
+            after() - 在被选元素之后插入内容 
+            before() - 在被选元素之前插入内容 
+          */
+	  
+	  
+	  })
+	  //点击关闭
+	  $("#containerSpeak .c_close").click(function(){
+		      document_index--;
+	          $("#containerSpeak").slideUp(400);       //向上滑动
+	          $("#speak").slideUp(600);               //向上滑动
+              $("#containerSpeak .c_tarea").html("");//关闭后内容清空
+			  $("#speak .s_content").html("");       //关闭后清空内容;
+			  $("#containerSpeak").css("zIndex",document_index);
+	  })
+     //点击说说
+    $("#containerSpeak").click(function(){
+             document_index++;
+			  $("#containerSpeak").css("zIndex",document_index);
+	})
+	/*---------------------------------说说---------------------------------------------*/
+	/*--------------------------------旋转体-------------------------------------------*/
+	 var tranDom=document.getElementById("transform");
+	 var rotate1Dom=document.getElementById("t_rotate1");    //第一个区块
+	 var rotate2Dom=document.getElementById("t_rotate2");    //第二个区块
+	 var rotate3Dom=document.getElementById("t_rotate3");     //第三个区块
+	 var rotate4Dom=document.getElementById("t_rotate4");     //第四个区块
+	 var dotOneDom=document.getElementById("b_one");         //第一个按钮
+	 var dotTwoDom=document.getElementById("b_two");         //第二个按钮
+	 var dotThreeDom=document.getElementById("b_three");         //第三个按钮
+	 var dotFourDom=document.getElementById("b_four");         //第四个按钮
+	     dotOneDom.onclick=function(){                 //点击第一个按钮
+		     /* animation-duration:4s;
+	            animation-timing-function:linear;
+	            animation-iteration-count:infinite; 
+		*/
+		     rotate1Dom.style.animationName="myRotateTwo";
+			 rotate1Dom.style.animationDuration="4s";
+             rotate1Dom.style.animationTimingFunction="linear";
+	         rotate1Dom.style.animationIterationCount="infinite"; 
+			 rotate2Dom.style.animationName="myRotateTwo";
+			 rotate2Dom.style.animationDuration="4s";
+			 rotate2Dom.style.animationTimingFunction="linear";
+			 rotate2Dom.style.animationIterationCount="infinite";
+			 rotate3Dom.style.animationName="myRotateTwo";
+			 rotate3Dom.style.animationDuration="4s";
+			 rotate3Dom.style.animationTimingFunction="linear";
+			 rotate3Dom.style.animationIterationCount="infinite";
+			 rotate4Dom.style.animationName="myRotateTwo";
+			 rotate4Dom.style.animationDuration="4s";
+			 rotate4Dom.style.animationTimingFunction="linear";
+			 rotate4Dom.style.animationIterationCount="infinite";
+			 
+		 }
+    dotTwoDom.onclick=function(){               //点击第二个按钮
+		     rotate1Dom.style.animationName="myRotateFour";
+			 rotate1Dom.style.animationDuration="4s";
+             rotate1Dom.style.animationTimingFunction="linear";
+	         rotate1Dom.style.animationIterationCount="infinite"; 
+			 rotate2Dom.style.animationName="myRotateFour";
+			 rotate2Dom.style.animationDuration="4s";
+			 rotate2Dom.style.animationTimingFunction="linear";
+			 rotate2Dom.style.animationIterationCount="infinite";
+			 rotate3Dom.style.animationName="myRotateFour";
+			 rotate3Dom.style.animationDuration="4s";
+			 rotate3Dom.style.animationTimingFunction="linear";
+			 rotate3Dom.style.animationIterationCount="infinite";
+			 rotate4Dom.style.animationName="myRotateFour";
+			 rotate4Dom.style.animationDuration="4s";
+			 rotate4Dom.style.animationTimingFunction="linear";
+			 rotate4Dom.style.animationIterationCount="infinite";
+	}
+ 
+    dotThreeDom.onclick=function(){                        //点击第三个按钮
+	         rotate1Dom.style.animationName="myRotateThree";
+			 rotate1Dom.style.animationDuration="4s";rotate1Dom.style.animationDelay="0s";
+			                                         //rotate1Dom.style.transitionDelay="2s";
+             rotate1Dom.style.animationTimingFunction="linear";
+	         rotate1Dom.style.animationIterationCount="infinite"; 
+			 rotate2Dom.style.animationName="myRotateThree";
+			 rotate2Dom.style.animationDuration="4s";rotate2Dom.style.animationDelay="0.3s";
+			                                         //rotate2Dom.style.transitionDelay="2s";
+			 rotate2Dom.style.animationTimingFunction="linear";
+			 rotate2Dom.style.animationIterationCount="infinite";
+			 rotate3Dom.style.animationName="myRotateThree";
+			 rotate3Dom.style.animationDuration="4s";rotate3Dom.style.animationDelay="0.4s";
+			                                          //rotate3Dom.style.transitionDelay="5s";
+			 rotate3Dom.style.animationTimingFunction="linear";
+			 rotate3Dom.style.animationIterationCount="infinite";
+			 rotate4Dom.style.animationName="myRotateThree";
+			 rotate4Dom.style.animationDuration="4s";rotate4Dom.style.animationDelay="0.6s";
+			                                         //rotate4Dom.style.transitionDelay="6s";
+			 rotate4Dom.style.animationTimingFunction="linear";
+			 rotate4Dom.style.animationIterationCount="infinite";
+	
+	}
+    dotFourDom.onclick=function(){                        //点击第四个按钮
+	         rotate1Dom.style.animationName="myRotate";
+			 rotate1Dom.style.animationDuration="4s";
+             rotate1Dom.style.animationTimingFunction="linear";
+	         rotate1Dom.style.animationIterationCount="infinite"; 
+			 rotate2Dom.style.animationName="myRotate";
+			 rotate2Dom.style.animationDuration="4s";
+			 rotate2Dom.style.animationTimingFunction="linear";
+			 rotate2Dom.style.animationIterationCount="infinite";
+			 rotate3Dom.style.animationName="myRotate";
+			 rotate3Dom.style.animationDuration="4s";
+			 rotate3Dom.style.animationTimingFunction="linear";
+			 rotate3Dom.style.animationIterationCount="infinite";
+			 rotate4Dom.style.animationName="myRotate";
+			 rotate4Dom.style.animationDuration="4s";
+			 rotate4Dom.style.animationTimingFunction="linear";
+			 rotate4Dom.style.animationIterationCount="infinite";
+	  
+	
+	}
+    tranDom.ondblclick=function(){                //清空所有运动状态
+	         rotate1Dom.style.animationName="none";
+			 rotate1Dom.style.animationDuration="0";
+             rotate1Dom.style.animationTimingFunction="none";
+	         rotate1Dom.style.animationIterationCount="0"; 
+			 rotate2Dom.style.animationName="none";
+			 rotate2Dom.style.animationDuration="0";
+			 rotate2Dom.style.animationTimingFunction="none";
+			 rotate2Dom.style.animationIterationCount="0";
+			 rotate3Dom.style.animationName="none";
+			 rotate3Dom.style.animationDuration="0";
+			 rotate3Dom.style.animationTimingFunction="none";
+			 rotate3Dom.style.animationIterationCount="0";
+			 rotate4Dom.style.animationName="none";
+			 rotate4Dom.style.animationDuration="0";
+			 rotate4Dom.style.animationTimingFunction="none";
+			 rotate4Dom.style.animationIterationCount="0";
+			 function disp(){
+			      var flag=window.confirm("确定关闭?");
+				  if(flag){
+				      $("#transform").fadeOut(1000);
+				  }else{
+				     
+				      
+				  }
+			  
+			 
+			 }
+			 window.setTimeout(disp,100)
+	
+	}
+	/*--------------------------------旋转体-------------------------------------------*/	
+	/*---------------------------------搜索--------------------------------------------*/
+	 // 搜索移动 
+	  var selDom=document.getElementById("select");
+      var setitleDom=document.getElementById("se_title");
+	    
+	    setitleDom.onmousedown=function(e){
+		     e=e||window.event; 
+             var x=e.clientX-parseInt(selDom.style.left);        //得到x的差
+			 var y=e.clientY-parseInt(selDom.style.top);         //得到y的差
+			  document.onmousemove=function(ev){
+			       ev=ev||window.event;
+				   selDom.style.left=(ev.clientX-x)+"px";
+				   selDom.style.top=(ev.clientY-y)+"px";
+			  
+			  
+			  }
+			  document.onmouseup=function(){
+			      document.onmousemove=null;
+			  
+			  }
+		
+		}		
+		//点击搜索窗口
+		$("#select").click(function(){
+			document_index++;
+		    $(this).css("zIndex",document_index);
+		
+		
+		})
+		
+          //关闭搜索窗口
+       var selcloseDom=$("#select .sel_close");
+	      selcloseDom.css("cursor","pointer");
+	      selcloseDom.click(function(){
+			       document_index--;	      
+		         $("#select").slideUp(500);
+                 $("#select").css("zIndex",document_index);
+		  
+		  
+		  })
+  /*------------------------------搜索-----------------------------------*/
+  /*------------------------------腾讯视频-------------------------------*/
+   //移动 
+	  var tengxunDom=document.getElementById("tengxun_video");
+      var txtitleDom=document.getElementById("tengxun_title");
+	    txtitleDom.onmousedown=function(e){
+		     e=e||window.event; 
+             var x=e.clientX-parseInt(tengxunDom.style.left);        //得到x的差
+			 var y=e.clientY-parseInt(tengxunDom.style.top);         //得到y的差
+			  document.onmousemove=function(ev){
+			       ev=ev||window.event;
+				   tengxunDom.style.left=(ev.clientX-x)+"px";
+                   tengxunDom.style.top=(ev.clientY-y)+"px";
+			  
+			  
+			  }
+			  document.onmouseup=function(){
+			      document.onmousemove=null;
+			  
+			  }
+		
+		}
+		    //放大缩小的实现
+        var video_num=1;
+	    var bodyHeightDom=document.body.scrollHeight;	  //获取浏览器实际高度
+        var bodyWidthDom=document.body.clientWidth;	      //获取浏览器实际高度宽度
+		
+		var tengxunWidthDom=document.getElementById("tengxun_video").clientWidth; //得到元素的原本宽度
+		var tengxunHeightDom=document.getElementById("tengxun_video").clientHeight;//得到元素的原本高度
+		var tengxunBoxWidthDom=$("#tengxun_video .tenngxun_bottom").width();//JQ得到盒子的原本宽度
+		var tengxunBoxHeightDom=$("#tengxun_video .tenngxun_bottom").height();//JQ得到盒子的原本高度
+		var tengxunIframeWidthDom=$("#tengxun_video .tenngxun_bottom iframe").width();//JQ得到内联框架的原本宽度
+		var tengxunIframeHeightDom=$("#tengxun_video .tenngxun_bottom iframe").height();//JQ得到内联框架的原本高度;
+		
+	 $("#tengxun_video a.big").click(function(){	 
+		   //获取浏览器窗口的高度
+		 if( video_num==1){
+		     $(this).css({"width":"15px","height":"12px","top":"7px"}); //放大时候改变
+	         tengxunDom.style.width=bodyWidthDom+"px";               //放大的宽度           
+		     tengxunDom.style.height=bodyHeightDom+"px";             //放大的高度
+             $("#tengxun_video .tenngxun_bottom").width(bodyWidthDom);     //JQ盒子的宽度
+             $("#tengxun_video .tenngxun_bottom").height(bodyHeightDom-40); //JQ盒子的高度
+	         $("#tengxun_video .tenngxun_bottom iframe").width(bodyWidthDom-5);   //JQ内联框架的宽度
+             $("#tengxun_video .tenngxun_bottom iframe").height(bodyHeightDom-40);//JQ内联框架的高度
+		      video_num=2;
+		 }else{
+		   $(this).css({"width":"30px","height":"18px","top":"4px"});
+           $("#tengxun_video .tenngxun_bottom iframe").width(tengxunIframeWidthDom); //JQ内联框架的宽度度
+		   $("#tengxun_video .tenngxun_bottom iframe").height(tengxunIframeHeightDom);//JQ内联框架的高度
+		   $("#tengxun_video .tenngxun_bottom").width(tengxunBoxWidthDom);     //JQ盒子的宽度
+           $("#tengxun_video .tenngxun_bottom").height(tengxunBoxHeightDom); //JQ盒子的高度
+			tengxunDom.style.width=tengxunWidthDom+"px";                        //缩小宽度
+			tengxunDom.style.height=tengxunHeightDom+"px";                      //缩小的高度 
+			  video_num=1  
+		 
+		 }
+	 })
+  
+		//点击腾讯窗口
+		$("#tengxun_video").click(function(){
+			document_index++;
+		    $(this).css("zIndex",document_index);
+		
+		
+		})
+          //关闭腾讯窗口
+       var tengxuncloseDom=$("#tengxun_video img.tengxun_close");
+	      tengxuncloseDom.css("cursor","pointer");
+	      tengxuncloseDom.click(function(){
+			       document_index--;	      
+		         $("#tengxun_video").slideUp(500);         
+                 $("#tengxun_video").css("zIndex",document_index);
+		  
+		  
+		  })
+	 
+  
+  /*------------------------------腾讯视频-------------------------------*/
+  /*-------------------------------WEBQQ----------------------------------*/
+    //移动 
+	  var webqqDom=document.getElementById("webqq");
+      var webqqtitleDom=document.getElementById("webqq_title");
+	    
+	   webqqtitleDom.onmousedown=function(e){
+		     e=e||window.event; 
+             var x=e.clientX-parseInt(webqqDom.style.left);        //得到x的差
+			 var y=e.clientY-parseInt(webqqDom.style.top);         //得到y的差
+			  document.onmousemove=function(ev){
+			       ev=ev||window.event;
+				   webqqDom.style.left=(ev.clientX-x)+"px";
+				   webqqDom.style.top=(ev.clientY-y)+"px";
+			  
+			  
+			  }
+			  document.onmouseup=function(){
+			      document.onmousemove=null;
+			  
+			  }
+		
+		}
+    /*
+        var bodyHeightDom=document.body.scrollHeight;	  //获取浏览器实际高度
+        var bodyWidthDom=document.body.clientWidth;	      //获取浏览器实际高度宽度
+    */
+        //放大缩小的实现
+       
+		var webqqDomWidthDom=document.getElementById("webqq").clientWidth; //得到元素的原本宽度
+		var webqqDomHeightDom=document.getElementById("webqq").clientHeight;//得到元素的原本高度
+		var webqqDomBoxWidthDom=$("#webqq .webqq_bottom").width();//JQ得到盒子的原本宽度
+		var webqqDomBoxHeightDom=$("#webqq .webqq_bottom").height();//JQ得到盒子的原本高度
+		var webqqDomIframeWidthDom=$("#webqq .webqq_bottom iframe").width();//JQ得到内联框架的原本宽度
+		var webqqDomIframeHeightDom=$("#webqq .webqq_bottom iframe").height();//JQ得到内联框架的原本高度;
+		 var webqq_num=1;
+	 $("#webqq a.big").click(function(){	 
+		   //获取浏览器窗口的高度
+		 if(webqq_num==1){
+			 $(this).css({"width":"15px","height":"12px","top":"7px"}); //放大时候改变
+	         webqqDom.style.width=bodyWidthDom+"px";               //放大的宽度           
+		     webqqDom.style.height=bodyHeightDom+"px";             //放大的高度
+             $("#webqq .webqq_bottom").width(bodyWidthDom);     //JQ盒子的宽度
+             $("#webqq .webqq_bottom").height(bodyHeightDom-40); //JQ盒子的高度
+	         $("#webqq .webqq_bottom iframe").width(bodyWidthDom-5);   //JQ内联框架的宽度
+             $("#webqq .webqq_bottom iframe").height(bodyHeightDom-40);//JQ内联框架的高度
+		      webqq_num=2;
+		 }else{
+		   $(this).css({"width":"30px","height":"18px","top":"4px"});
+           $("#webqq .webqq_bottom iframe").width(webqqDomIframeWidthDom); //JQ内联框架的宽度度
+		   $("#webqq .webqq_bottom iframe").height(webqqDomIframeHeightDom);//JQ内联框架的高度
+		   $("#webqq .webqq_bottom").width(webqqDomBoxWidthDom);     //JQ盒子的宽度
+           $("#webqq .webqq_bottom").height(webqqDomBoxHeightDom); //JQ盒子的高度
+			 webqqDom.style.width=webqqDomWidthDom+"px";                        //缩小宽度
+			 webqqDom.style.height=webqqDomHeightDom+"px";                      //缩小的高度 
+			  webqq_num=1  
+		 
+		 }
+	 })
+	 //点击webqq窗口
+		$("#webqq").click(function(){
+			document_index++;
+		    $(this).css("zIndex",document_index);
+		
+		
+		})
+          //关闭webqq窗口
+       var webqqcloseDom=$("#webqq .webqq_close");
+	      webqqcloseDom.css("cursor","pointer");
+	      webqqcloseDom.click(function(){
+			       document_index--;	      
+		         $("#webqq").slideUp(500);         
+                 $("#webqq").css("zIndex",document_index);
+		  
+		  
+		  })
+     /*-------------------------------WEBQQ----------------------------------*/
+	 /*----------------------------------------------W3Cschool--------------------------------------*/
+	  //移动 
+	  var W3CschoolDom=document.getElementById("W3Cschool");
+      var w3ctitleDom=document.getElementById("w3c_title");
+	    
+	   w3ctitleDom.onmousedown=function(e){
+		     e=e||window.event; 
+             var x=e.clientX-parseInt(W3CschoolDom.style.left);        //得到x的差
+			 var y=e.clientY-parseInt(W3CschoolDom.style.top);         //得到y的差
+			  document.onmousemove=function(ev){
+			       ev=ev||window.event;
+				   W3CschoolDom.style.left=(ev.clientX-x)+"px";
+				   W3CschoolDom.style.top=(ev.clientY-y)+"px";
+			  
+			  
+			  }
+			  document.onmouseup=function(){
+			      document.onmousemove=null;
+			  
+			  }
+		
+		}
+		  
+		/*
+        var bodyHeightDom=document.body.scrollHeight;	  //获取浏览器实际高度
+        var bodyWidthDom=document.body.clientWidth;	      //获取浏览器实际高度宽度
+		*/
+        //放大缩小的实现
+       
+		var W3CschoolWidthDom=document.getElementById("W3Cschool").clientWidth; //得到元素的原本宽度
+		var W3CschoolHeightDom=document.getElementById("W3Cschool").clientHeight;//得到元素的原本高度
+		var W3CschoolBoxWidthDom=$("#W3Cschool .w3c_bottom").width();//JQ得到盒子的原本宽度
+		var W3CschoolBoxHeightDom=$("#W3Cschool .w3c_bottom").height();//JQ得到盒子的原本高度
+		var W3CschoolIframeWidthDom=$("#W3Cschool .w3c_bottom iframe").width();//JQ得到内联框架的原本宽度
+		var W3CschoolIframeHeightDom=$("#W3Cschool .w3c_bottom iframe").height();//JQ得到内联框架的原本高度;
+		 var W3Cschool_num=1;
+	 $("#W3Cschool a.big").click(function(){	 
+		   //获取浏览器窗口的高度
+		 if(W3Cschool_num==1){
+			 $(this).css({"width":"15px","height":"12px","top":"7px"}); //放大时候改变
+	         W3CschoolDom.style.width=bodyWidthDom+"px";               //放大的宽度           
+		     W3CschoolDom.style.height=bodyHeightDom+"px";             //放大的高度
+             $("#W3Cschool .w3c_bottom").width(bodyWidthDom);     //JQ盒子的宽度
+             $("#W3Cschool .w3c_bottom").height(bodyHeightDom-40); //JQ盒子的高度
+	         $("#W3Cschool .w3c_bottom iframe").width(bodyWidthDom-5);   //JQ内联框架的宽度
+             $("#W3Cschool .w3c_bottom iframe").height(bodyHeightDom-40);//JQ内联框架的高度
+		      W3Cschool_num=2;
+		 }else{
+		   $(this).css({"width":"30px","height":"18px","top":"4px"});
+           $("#W3Cschool .w3c_bottom iframe").width(W3CschoolIframeWidthDom); //JQ内联框架的宽度度
+		   $("#W3Cschool .w3c_bottom iframe").height(W3CschoolIframeHeightDom);//JQ内联框架的高度
+		   $("#W3Cschool .w3c_bottom").width(W3CschoolBoxWidthDom);     //JQ盒子的宽度
+           $("#W3Cschool .w3c_bottom").height(W3CschoolBoxHeightDom); //JQ盒子的高度
+			W3CschoolDom.style.width=W3CschoolWidthDom+"px";                        //缩小宽度
+			W3CschoolDom.style.height=W3CschoolHeightDom+"px";                      //缩小的高度 
+			  W3Cschool_num=1  
+		 
+		 }
+	 })
+	 //点击W3Cschool窗口
+		$("#W3Cschool").click(function(){
+			document_index++;
+		    $(this).css("zIndex",document_index);
+		
+		
+		})
+          //关闭W3Cschool窗口
+       var W3CschoolcloseDom=$("#W3Cschool .w3c_close");
+	      W3CschoolcloseDom.css("cursor","pointer");
+	      W3CschoolcloseDom.click(function(){
+			       document_index--;	      
+		         $("#W3Cschool").slideUp(500);         
+                 $("#W3Cschool").css("zIndex",document_index);
+		  
+		  
+		  })
+	  /*------------------------------------------W3Cschool----------------------------------------*/  /*-------------------------------淘宝-------------------------------------*/
+        //移动 
+	  var taobaoDom=document.getElementById("taobao");
+      var taobaotitleDom=document.getElementById("taobao_title");
+	    
+	taobaotitleDom.onmousedown=function(e){
+		     e=e||window.event; 
+             var x=e.clientX-parseInt(taobaoDom.style.left);        //得到x的差
+			 var y=e.clientY-parseInt(taobaoDom.style.top);         //得到y的差
+			  document.onmousemove=function(ev){
+			       ev=ev||window.event;
+				   taobaoDom.style.left=(ev.clientX-x)+"px";
+				   taobaoDom.style.top=(ev.clientY-y)+"px";
+			  
+			  
+			  }
+			  document.onmouseup=function(){
+			      document.onmousemove=null;
+			  
+			  }
+		
+		}
+		
+       
+		
+        var bodyHeightDom=document.body.scrollHeight;	  //获取浏览器实际高度
+        var bodyWidthDom=document.body.clientWidth;	      //获取浏览器实际高度宽度
+		
+        //放大缩小的实现
+       
+		var taobaoDomWidthDom=document.getElementById("taobao").clientWidth; //得到元素的原本宽度
+		var taobaoDomHeightDom=document.getElementById("taobao").clientHeight;//得到元素的原本高度
+		var taobaoDomBoxWidthDom=$("#taobao .taobao_bottom").width();//JQ得到盒子的原本宽度
+		var taobaoDomBoxHeightDom=$("#taobao .taobao_bottom").height();//JQ得到盒子的原本高度
+		var taobaoDomIframeWidthDom=$("#taobao .taobao_bottom iframe").width();//JQ得到内联框架的原本宽度
+		var taobaoDomIframeHeightDom=$("#taobao .taobao_bottom iframe").height();//JQ得到内联框架的原本高度;
+		 var taobao_num=1;
+	 $("#taobao a.big").click(function(){	 
+		   //获取浏览器窗口的高度
+		 if(taobao_num==1){
+			 $(this).css({"width":"15px","height":"12px","top":"7px"}); //放大时候改变
+	         taobaoDom.style.width=bodyWidthDom+"px";               //放大的宽度           
+		     taobaoDom.style.height=bodyHeightDom+"px";             //放大的高度
+             $("#taobao .taobao_bottom").width(bodyWidthDom);     //JQ盒子的宽度
+             $("#taobao .taobao_bottom").height(bodyHeightDom-40); //JQ盒子的高度
+	         $("#taobao .taobao_bottom iframe").width(bodyWidthDom-5);   //JQ内联框架的宽度
+             $("#taobao .taobao_bottom iframe").height(bodyHeightDom-40);//JQ内联框架的高度
+		      taobao_num=2;
+		 }else{
+		   $(this).css({"width":"30px","height":"18px","top":"4px"});
+           $("#taobao .taobao_bottom iframe").width(taobaoDomIframeWidthDom); //JQ内联框架的宽度度
+		   $("#taobao .taobao_bottom iframe").height(taobaoDomIframeHeightDom);//JQ内联框架的高度
+		   $("#taobao .taobao_bottom").width(taobaoDomBoxWidthDom);     //JQ盒子的宽度
+           $("#taobao .taobao_bottom").height(taobaoDomBoxHeightDom); //JQ盒子的高度
+			 taobaoDom.style.width=taobaoDomWidthDom+"px";                        //缩小宽度
+			 taobaoDom.style.height=taobaoDomHeightDom+"px";                      //缩小的高度 
+			  taobao_num=1  
+		 
+		 }
+	 })
+	  //点击淘宝窗口
+		$("#taobao").click(function(){
+			document_index++;
+		    $(this).css("zIndex",document_index);
+		
+		
+		})
+          //关闭淘宝窗口
+       var taobaolcloseDom=$("#taobao .taobao_close");
+	      taobaolcloseDom.css("cursor","pointer");
+	      taobaolcloseDom.click(function(){
+			       document_index--;	      
+		         $("#taobao").slideUp(500);         
+                 $("#taobao").css("zIndex",document_index);
+		  
+		  
+		  })
+   /*-------------------------------淘宝-----------------------------------*/
+   /*---------------------------------途牛网----------------------------------*/
+          //移动 
+	  var tuniuDom=document.getElementById("tuniu");
+      var tuniutitleDom=document.getElementById("tuniu_title");
+	    
+	   tuniutitleDom.onmousedown=function(e){
+		     e=e||window.event; 
+             var x=e.clientX-parseInt(tuniuDom.style.left);        //得到x的差
+			 var y=e.clientY-parseInt(tuniuDom.style.top);         //得到y的差
+			  document.onmousemove=function(ev){
+			       ev=ev||window.event;
+				   tuniuDom.style.left=(ev.clientX-x)+"px";
+				   tuniuDom.style.top=(ev.clientY-y)+"px";
+			  
+			  
+			  }
+			  document.onmouseup=function(){
+			      document.onmousemove=null;
+			  
+			  }
+		
+		}
+            
+        var bodyHeightDom=document.body.scrollHeight;	  //获取浏览器实际高度
+        var bodyWidthDom=document.body.clientWidth;	      //获取浏览器实际高度宽度
+		
+        //放大缩小的实现
+       
+		var tuniuDomWidthDom=document.getElementById("tuniu").clientWidth; //得到元素的原本宽度
+		var tuniuDomHeightDom=document.getElementById("tuniu").clientHeight;//得到元素的原本高度
+		var tuniuDomBoxWidthDom=$("#tuniu .tuniu_bottom").width();//JQ得到盒子的原本宽度
+		var tuniuDomBoxHeightDom=$("#tuniu .tuniu_bottom").height();//JQ得到盒子的原本高度
+		var tuniuDomIframeWidthDom=$("#tuniu .tuniu_bottom iframe").width();//JQ得到内联框架的原本宽度
+		var tuniuDomIframeHeightDom=$("#tuniu .tuniu_bottom iframe").height();//JQ得到内联框架的原本高度;
+		 var tuniu_num=1;
+	 $("#tuniu a.big").click(function(){	 
+		   //获取浏览器窗口的高度
+		 if(tuniu_num==1){
+			 $(this).css({"width":"15px","height":"12px","top":"7px"}); //放大时候改变
+	         tuniuDom.style.width=bodyWidthDom+"px";               //放大的宽度           
+		     tuniuDom.style.height=bodyHeightDom+"px";             //放大的高度
+             $("#tuniu .tuniu_bottom").width(bodyWidthDom);     //JQ盒子的宽度
+             $("#tuniu .tuniu_bottom").height(bodyHeightDom-40); //JQ盒子的高度
+	         $("#tuniu .tuniu_bottom iframe").width(bodyWidthDom-5);   //JQ内联框架的宽度
+             $("#tuniu .tuniu_bottom iframe").height(bodyHeightDom-40);//JQ内联框架的高度
+		      tuniu_num=2;
+		 }else{
+		   $(this).css({"width":"30px","height":"18px","top":"4px"});
+           $("#tuniu .tuniu_bottom iframe").width(tuniuDomIframeWidthDom); //JQ内联框架的宽度度
+		   $("#tuniu .tuniu_bottom iframe").height(tuniuDomIframeHeightDom);//JQ内联框架的高度
+		   $("#tuniu .tuniu_bottom").width(tuniuDomBoxWidthDom);     //JQ盒子的宽度
+           $("#tuniu .tuniu_bottom").height(tuniuDomBoxHeightDom); //JQ盒子的高度
+			 tuniuDom.style.width=tuniuDomWidthDom+"px";                        //缩小宽度
+			 tuniuDom.style.height=tuniuDomHeightDom+"px";                      //缩小的高度 
+			 tuniu_num=1  
+		 
+		 }
+	 })
+	  //点击途牛网窗口
+		$("#tuniu").click(function(){
+			document_index++;
+		    $(this).css("zIndex",document_index);
+		
+		
+		})
+          //关闭淘途牛网窗口
+       var tuniucloseDom=$("#tuniu .tuniu_close");
+	      tuniucloseDom.css("cursor","pointer");
+	      tuniucloseDom.click(function(){
+			       document_index--;	      
+		         $("#tuniu").slideUp(500);         
+                 $("#tuniu").css("zIndex",document_index);
+		  
+		  
+		  })
+   /*---------------------------------途牛网---------------------------------*/
+	  /*-------------------------------------------win8-------------------------------------------*/
+	    var content_num=1;
+         var win8iconDom=document.getElementById("win8_icon");
+		 var win8pageDom=document.getElementById("win8_page");
+		   win8iconDom.onclick=function(){
+			 
+			  if(content_num==1){
+		        win8pageDom.style.display="inline";
+			     content_num=2; 
+			  }else{
+			    win8pageDom.style.display="none";
+				
+			     content_num=1;
+			  }
+		   
+		      
+		 }
+   /*-------------------------------win8--------------------------------------*/
+  
+	/*-----------------------------图标*-----------------------------------*/
+	
+     $("#picture_icon .i_icon").dblclick(function(){  //双击打开图库
+		   document_index++;
+	       $(".pict").show(100);
+		    $(".pict").css("zIndex",document_index);
+	   
+	 })
+	 $("#picture_speak .s_icon").dblclick(function(){  //双击打开说说
+	     document_index++;
+        $("#containerSpeak").slideDown(400);
+         $("#containerSpeak").css("zIndex",document_index);
+	 
+	 })
+    $("#picture_rotate .r_icon").dblclick(function(){   //双击打开3D图
+	        document_index++;
+	    rotate1Dom.style.animationName="none";
+			 rotate1Dom.style.animationDuration="0";
+             rotate1Dom.style.animationTimingFunction="none";
+	         rotate1Dom.style.animationIterationCount="0"; 
+			 rotate2Dom.style.animationName="none";
+			 rotate2Dom.style.animationDuration="0";
+			 rotate2Dom.style.animationTimingFunction="none";
+			 rotate2Dom.style.animationIterationCount="0";
+			 rotate3Dom.style.animationName="none";
+			 rotate3Dom.style.animationDuration="0";
+			 rotate3Dom.style.animationTimingFunction="none";
+			 rotate3Dom.style.animationIterationCount="0";
+			 rotate4Dom.style.animationName="none";
+			 rotate4Dom.style.animationDuration="0";
+			 rotate4Dom.style.animationTimingFunction="none";
+			 rotate4Dom.style.animationIterationCount="0";
+             $("#transform").fadeIn(2000);
+			 $("#transform").css("zIndex",document_index);
+	
+	
+	})
+	$("#picture_select").dblclick(function(){         //双击搜索
+		    document_index++;
+	        $("#select").slideDown(300);
+            $("#select").css("zIndex",document_index);
+	
+	})
+	$("#picture_tengxunVideo").dblclick(function(){         //双击腾讯
+		    document_index++;
+	        tengxunDom.style.visibility="visible";         //搭配使用
+			$("#tengxun_video").slideDown(300);          //与关闭相对应 
+			     
+			$("#tengxun_video").css("zIndex",document_index);
+	
+	})
+	$("#picture_WEBQQ").dblclick(function(){         //双击WEBQQ
+		    document_index++;
+	        webqqDom.style.visibility="visible";         //搭配使用
+			$("#webqq").slideDown(300);          //与关闭相对应 
+            $("#webqq").css("zIndex",document_index);
+	
+	})
+	$("#win8_page ul li a img.win8_oneIcon").dblclick(function(){    //双击W3Cschool
+	        document_index++;
+            W3CschoolDom.style.visibility="visible";         //搭配使用
+			$("#W3Cschool").slideDown(300);          //与关闭相对应 
+			     
+			$("#W3Cschool").css("zIndex",document_index);
+	  
+	
+	})
+	$("#win8_page img.win8_twoIcon").dblclick(function(){    //双击淘宝
+	        document_index++;
+            $("#taobao").slideDown(300);          //与关闭相对应 
+            taobaoDom.style.visibility="visible";         //搭配使用
+			
+			     
+			$("#taobao").css("zIndex",document_index);
+	  
+	
+	})
+	$("#win8_page img.win8_threeIcon").dblclick(function(){    //双击途牛网
+	        document_index++;
+            tuniuDom.style.visibility="visible";         //搭配使用
+			$("#tuniu").slideDown(300);          //与关闭相对应 
+			     
+			$("#tuniu").css("zIndex",document_index);
+	  
+	
+	})
+      
+/*----------------------------------图标*--------------------------------*/
+  
+ </script>
+ </body>
+ </body>
+</html>
